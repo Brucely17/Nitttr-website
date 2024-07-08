@@ -1,6 +1,6 @@
-// Quicklinks.jsx
-
-import React from 'react';
+import React, { useState } from 'react';
+import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
+import './Quicklink.css';
 
 const Card = ({ title, imageUrl, content, links, buttonText }) => (
   <div className="card">
@@ -37,7 +37,7 @@ function QuickLinks() {
         { text: "Course flyer for SWAYAM", url: "#" },
         { text: "Extension of Registration Dates", url: "#" }
       ],
-      buttonText: "MORE DETAILS"
+      buttonText: "READ MORE"
     },
     {
       title: "NITTT Exam Registration",
@@ -69,23 +69,34 @@ function QuickLinks() {
       links: [],
       buttonText: "READ MORE"
     }
-    
   ];
+
+  const [currentCardIndex, setCurrentCardIndex] = useState(0);
+
+  const handleNext = () => {
+    setCurrentCardIndex((prevIndex) => (prevIndex + 1) % cardData.length);
+  };
+
+  const handlePrevious = () => {
+    setCurrentCardIndex((prevIndex) => (prevIndex - 1 + cardData.length) % cardData.length);
+  };
 
   return (
     <div className="quick-links-container">
       <h2 className="quick-links-heading">Quick Links</h2>
-      <div className="card-list-container">
-        {cardData.map((data, index) => (
+      <div className="card-navigation">
+        <MdKeyboardArrowUp className="arrow-icon" onClick={handlePrevious} />
+        <div className="card-list-container">
           <Card 
-            key={index}
-            title={data.title}
-            imageUrl={data.imageUrl}
-            content={data.content}
-            links={data.links} 
-            buttonText={data.buttonText}
+            key={currentCardIndex}
+            title={cardData[currentCardIndex].title}
+            imageUrl={cardData[currentCardIndex].imageUrl}
+            content={cardData[currentCardIndex].content}
+            links={cardData[currentCardIndex].links} 
+            buttonText={cardData[currentCardIndex].buttonText}
           />
-        ))}
+        </div>
+        <MdKeyboardArrowDown className="arrow-icon" onClick={handleNext} />
       </div>
     </div>
   );
