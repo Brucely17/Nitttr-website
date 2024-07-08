@@ -1,7 +1,6 @@
 // Quicklinks.jsx
 
 import React from 'react';
-import './Quicklink.css';
 
 const Card = ({ title, imageUrl, content, links, buttonText }) => (
   <div className="card">

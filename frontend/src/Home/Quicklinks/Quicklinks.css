@@ -16,6 +16,8 @@
 .card-list-container {
     width: 30%; /* Adjust width as needed */
     height: 700px; /* Fixed height for container */
+    width: 100%; /* Adjust width as needed */
+    height: 530px; /* Fixed height for container */
     overflow-y: auto; /* Enable vertical scrolling */
     /* Hide scrollbar */
     scrollbar-width: none; /* Firefox */

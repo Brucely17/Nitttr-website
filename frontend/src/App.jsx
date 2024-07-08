@@ -9,6 +9,7 @@ import ImageSlider from './Home/ImageSlider/ImageSlider';
 import './App.css';
 import Speakers from './Home/Speakers/Speakers';
 import QuickLinks from './Home/Quicklinks/Quicklinks.jsx';
+import Announcements from './Home/AnnAch/Announcements';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   <Speakers/>
   <QuickLinks/>
 
+  <Announcements/>
   
   <Footer/>
 
