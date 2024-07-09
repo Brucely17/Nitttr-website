@@ -10,6 +10,7 @@ import './App.css';
 import Speakers from './Home/Speakers/Speakers';
 import QuickLinks from './Home/Quicklinks/Quicklinks.jsx';
 import Announcements from './Home/AnnAch/Announcements';
+import Gallery from './Home/Gallery/Gallery';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   <QuickLinks/>
 
   <Announcements/>
-  
+  <Gallery/>
   <Footer/>
 
     </div>
