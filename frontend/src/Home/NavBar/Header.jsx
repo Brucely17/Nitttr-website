@@ -10,10 +10,11 @@ const Header = () => {
   return (
     <>
     <Head />
+    
     {/* <div classnmae='border-down'></div> */}
     <header className="header__new">
     
-    
+   
    
      
       
@@ -23,25 +24,23 @@ const Header = () => {
     <NavBar />
     
     
+    
+    
     </div>
+    
     <div className='video__container'>
+    
           <video autoPlay loop muted className='background__video'>
             <source src="/images/new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+          <Announce />
         </div>
       
     
 
     
-    {/* <img className='nav__img' src="/images/institutionday.png"/> */}
-    {/* <div className='nav__img'>
-    <video autoPlay loop muted className='background__video'>
-    <source src="/images/nittr.mp4" type="video/mp4" />
-    </video>
-    </div> */}
-   
-    {/* <Intro/> */}
+  
 
   
     </>

@@ -11,7 +11,7 @@ import Speakers from './Home/Speakers/Speakers';
 import QuickLinks from './Home/Quicklinks/Quicklinks.jsx';
 import Announcements from './Home/AnnAch/Announcements';
 import Gallery from './Home/Gallery/Gallery';
-
+import Expertise from './Home/Expertise/Expertise.jsx';
 
 function App() {
 
@@ -24,9 +24,10 @@ function App() {
       {/* <Intro /> */}
   {/* <ImageSlider/> */}
   <Speakers/>
-  <QuickLinks/>
+  {/* <QuickLinks/> */}
 
   <Announcements/>
+  <Expertise/>
   <Gallery/>
   <Footer/>
 

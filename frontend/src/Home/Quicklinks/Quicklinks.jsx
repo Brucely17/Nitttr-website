@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
-import './Quicklink.css';
+import './Quicklinks.css';
 
 const Card = ({ title, imageUrl, content, links, buttonText }) => (
   <div className="card">
