@@ -5,30 +5,31 @@
     
   }
   .about_nittr{
-    
+    /* margin-top: -20px; */
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* width: 80%; */
+    margin: auto;
+    width: 85%;
     gap: 20px;
 }
 
 .about_nittr h1{
-    padding-top: 30px;
+    /* padding-top: 10px; */
     color: rgb(32, 32, 172);
-    font-size: 40px;
+    /* font-size: 40px; */
 }
 
 .about_nittr p{
     text-align: justify;
-    padding-left: 100px;
-    padding-right: 100px;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
     line-height: 35px;
-    font-size: 17px;
+    /* font-size: 17px; */
     color: rgb(116, 115, 115);
 }
   .speakerCards {
-    padding-top:30px;
+    padding-top:20px;
     display: flex;
     flex-wrap: nowrap; /* Display cards in a single row */
     justify-content: flex-start; /* Adjust as needed */

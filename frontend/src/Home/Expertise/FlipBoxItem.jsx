@@ -5,15 +5,15 @@ const FlipBoxItem = ({ frontImage, backImage, header, backContent }) => {
     <div className="box-item">
       <div className="flip-box">
         <div
-          className="flip-box-front text-center"
+          className="flip-box-front text-center min-h-[200px]"
           style={{ backgroundImage: `url(${frontImage})` }}
         >
           <div className="inner color-white">
-            <h3 className="flip-box-header">{header}</h3>
+            <h3 className="flip-box-header text-xl md:text-2xl">{header}</h3>
           </div>
         </div>
         <div
-          className="flip-box-back text-center"
+          className="flip-box-back text-center min-h-[200px]"
           style={{ backgroundImage: `url(${backImage})` }}
         >
           {<div className="inner color-white">

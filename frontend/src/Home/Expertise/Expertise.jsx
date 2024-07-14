@@ -84,7 +84,7 @@ const Expertise = () => {
 
   return (
     <>
-      <h1 className="exph1">Expertise</h1>
+      <h1 className="exph1 text-2xl md:tex-4xl">Expertise</h1>
       <div className="box-container">
         {flipBoxData.map((item, index) => (
           <FlipBoxItem

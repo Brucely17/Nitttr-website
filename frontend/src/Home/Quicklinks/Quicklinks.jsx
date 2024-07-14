@@ -3,7 +3,7 @@ import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
 import './Quicklinks.css';
 
 const Card = ({ title, imageUrl, content, links, buttonText }) => (
-  <div className="card">
+  <div className="card w-[70%]">
     <div className="card-header">
       <img src={imageUrl} alt={title} className="card-image" />
       <h2>{title}</h2>
@@ -13,7 +13,7 @@ const Card = ({ title, imageUrl, content, links, buttonText }) => (
     </div>
     <div className="card-links">
       {links.map((link, index) => (
-        <div key={index} className="link-item">
+        <div key={index} className="link-item text-sm md:text-lg">
           <span className="new-tag">New</span>
           <a href={link.url} target="_blank" rel="noopener noreferrer">
             {link.text}
@@ -22,7 +22,7 @@ const Card = ({ title, imageUrl, content, links, buttonText }) => (
       ))}
     </div>
     <div className="card-footer">
-      <button>{buttonText}</button>
+      <button className='p-2 text-sm md:text-lg'>{buttonText}</button>
     </div>
   </div>
 );
@@ -83,10 +83,10 @@ function QuickLinks() {
 
   return (
     <div className="quick-links-container">
-      <h2 className="quick-links-heading">Quick Links</h2>
+      <h2 className="quick-links-heading text-md md:text-xl mx-auto md:mx-2 pt-3">Quick Links</h2>
       <div className="card-navigation">
         <MdKeyboardArrowUp className="arrow-icon" onClick={handlePrevious} />
-        <div className="card-list-container">
+        <div className="card-list-container w-[130%]">
           <Card 
             key={currentCardIndex}
             title={cardData[currentCardIndex].title}

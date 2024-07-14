@@ -6,8 +6,8 @@ function Speakers() {
   return (
     <>   
       <div className='about_nittr'>
-      <h1 >About NITTR</h1>
-      <p>
+      <h1 className='text-2xl md:text-4xl ' >About NITTR</h1>
+      <p className='text-sm md:text-lg'>
         NITTR is a student run organization that aims to provide a platform for students to showcase their
       
         technical skills and knowledge. We organize events like workshops, hackathons, coding competitions,
@@ -21,8 +21,8 @@ function Speakers() {
 
       </p>
       </div>
-      <div className="speakerMain">
-        <div className="speakerCards">
+      <div className="speakerMain w-[85%] mx-auto">
+        <div className="speakerCards flex-col gap-20 md:flex-row">
           <ProfileCard 
             imageUrl={"/images/speakers/Balasubramanian.png"} 
             Name="Balasubramaniyan Munnuswamy"

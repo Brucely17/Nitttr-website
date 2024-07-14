@@ -44,13 +44,13 @@ function ProfileCard({ imageUrl, Name, Proficiency, Description }) {
         <a href="#">
           <img src={imageUrl} alt={Name} />
         </a>
-        <div className="profiletitle">{Name}</div>
-        < h4 className="profileplace">{Proficiency}</h4>
+        <div className="profiletitle text-md md:text-2xl text-center">{Name}</div>
+        < h4 className="profileplace text-sm md:text-lg px-3">{Proficiency}</h4>
       </div>
       <div className="profilecontent">
-        <p className={showMore ? 'show-more' : 'show-less'}>{Description}</p>
+        <p className={showMore ? 'show-more text-sm md:text-lg p-5 text-justify' : 'show-less text-sm md:text-lg p-5 text-justify'}>{Description}</p>
         {!showMore && (
-          <button className="read-more" onClick={() => setShowMore(!showMore)}>
+          <button className="read-more pl-5 mt-5" onClick={() => setShowMore(!showMore)}>
             Read More
           </button>
         )}
