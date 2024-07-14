@@ -140,7 +140,7 @@ const Gallery = () => {
 
   return (
     <div className="carousel">
-      <h2 className="categories__title">Gallery</h2>
+      <h2 className="categories__title text-2xl md:text-3xl">Gallery</h2>
       <div className="carousel__container">
         {galleryItems.map((item, index) => (
           <GalleryItem
@@ -152,7 +152,7 @@ const Gallery = () => {
         ))}
       </div>
       <div className="carousel__mobile">
-        <button className="carousel__arrow carousel__arrow--left" onClick={prevSlide}>
+        <button className="carousel__arrow carousel__arrow--left mr-5" onClick={prevSlide}>
           &#10094;
         </button>
         <GalleryItem
@@ -160,7 +160,7 @@ const Gallery = () => {
           title={galleryItems[currentIndex].title}
           subtitle={galleryItems[currentIndex].subtitle}
         />
-        <button className="carousel__arrow carousel__arrow--right" onClick={nextSlide}>
+        <button className="carousel__arrow carousel__arrow--right ml-5" onClick={nextSlide}>
           &#10095;
         </button>
       </div>

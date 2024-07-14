@@ -55,8 +55,8 @@ body {
 }
 
 .categories__title {
-  color: rgb(17, 12, 78);
-  font-size: 28px;
+  color: rgb(32, 32, 172);
+  /* font-size: 28px; */
   margin-bottom: 20px;
   text-align: center;
 }
