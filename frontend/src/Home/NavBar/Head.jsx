@@ -6,7 +6,7 @@ const Head = () => {
   return (
     <header className="header">
     
-      <img src='/images/chennaiLogo.png' alt="Chennai Logo" className="header-logo" />
+      <img src='/images/nitttr logo1.png' alt="Chennai Logo" className="header-logo" />
       {/* </div> */}
       {/* <div className='hRight' > */}
       <img src='/images/G20_India_2023_logo.png' alt="G20 Logo" className="center-logo" />
