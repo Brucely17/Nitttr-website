@@ -80,7 +80,7 @@ const Navigation = () => {
           </SubDropdown>
           <li><a href="/institute/vision">Chairman Message</a></li>
           <li><a href="/institute/memorandum">Director Message</a></li>
-          <li><a href="/institute/memorandum">Annual Report</a></li>
+          <li><a href="/institute/memorandum">Annual Reports</a></li>
         </Dropdown>
         <Dropdown
           title="Administration"
@@ -95,7 +95,7 @@ const Navigation = () => {
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/administraction/Committees & Incharge/BOG">Office of Administration & Account</a></li>
+            <li><a href="/administraction/Committees & Incharge/BOG">Office of Administration & Accounts</a></li>
             <li><a href="/administraction/Committees & Incharge/vigilance officer">Chief Vigilance Officer</a></li>
             <li><a href="/administraction/Committees & Incharge/estate officer">Nodal Officer - Public Grievance</a></li>
             <li><a href="/administraction/Committees & Incharge/estate officer">Estate Officer</a></li>
@@ -120,10 +120,10 @@ const Navigation = () => {
           >
             <li><a href="/administraction/Policies & Rules/Administration Rules">Administration Rules</a></li>
             <li><a href="/administraction/Policies & Rules/Account Rules">Account Rules</a></li>
-            <li><a href="/administraction/Policies & Rules/Admission Form">Admission Form </a></li>
+            <li><a href="/administraction/Policies & Rules/Admission Form">Administration Form </a></li>
           </SubDropdown>
           <li><a href="/administration/chairman">Annual Property Returns</a></li>
-          <li><a href="/administration/chairman"></a></li>
+          <li><a href="/administration/chairman">Past Directors & Chairman</a></li>
         </Dropdown>
         <Dropdown
           title="Academics"
@@ -149,7 +149,7 @@ const Navigation = () => {
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
             <li><a href="/Academics/Nationl Coordinators/SWAYAM">SWAYAM</a></li>
-            <li><a href="/Academics/National Coordinators/NITTTR">NITTTR</a></li>
+            <li><a href="/Academics/National Coordinators/NITTTR">NITTT</a></li>
           </SubDropdown>
           <SubDropdown
             title="OER"
@@ -223,7 +223,7 @@ const Navigation = () => {
           </SubDropdown>
         </Dropdown>
         <Dropdown
-          title="Admission"
+          title="Admissions"
           isOpen={openDropdown === 1}
           handleClick={() => handleDropdownClick(1)}
         >
@@ -264,7 +264,7 @@ const Navigation = () => {
           <li><a href="/Recruitments/about">Projects & Contract</a></li>
         </Dropdown>
 
-        <li><a href="/admissions">Announcement </a></li>
+        <li><a href="/admissions">Announcements </a></li>
         <li><a href="/facilities">Contact us</a></li>
       </ul>
     </nav>
