@@ -30,10 +30,10 @@ const Header = () => {
     
     <div className='video__container'>
     
-          <video autoPlay loop muted className='background__video'>
+          <video autoPlay loop muted className='background__video h-96'>
             <source src="/images/new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video>
           <Announce />
         </div>
       
