@@ -29,7 +29,7 @@ const Expertise = () => {
           <ul>
             <li><a href="#Need Analysis">Need Analysis</a></li>
             <li><a href="#Curriculum Design">Curriculum Design</a></li>
-            <li><a href="#Curriculum Evluation">Curriculum Evluation</a></li>
+            <li><a href="#Curriculum Evluation">Curriculum Evaluation</a></li>
           </ul>
         </div>
       ),
@@ -43,7 +43,7 @@ const Expertise = () => {
           <h3>Learn More</h3>
           <ul>
             <li><a href="#Text Material">Text Material</a></li>
-            <li><a href="#Video Materail">Video Materail</a></li>
+            <li><a href="#Video Materail">Video tutorials</a></li>
             <li><a href="#Online MOOCS">Online MOOCS</a></li>
             <li><a href="#Traning thro' LMS">Training thro' LMS</a></li>
           </ul>
@@ -73,7 +73,7 @@ const Expertise = () => {
         <div>
           <h3>Learn More</h3>
           <ul>
-            <li><a href="#link13">Entreperneurship Programme</a></li>
+            <li><a href="#link13">Entrepreneurship Programmes</a></li>
             <li><a href="#link14">Community Development Through Polytechnic</a></li>
             <li><a href="#link15">Person With Disability Scheme</a></li>
           </ul>
