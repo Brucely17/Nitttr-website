@@ -30,10 +30,7 @@ const Header = () => {
     
     <div className='video__container'>
     
-          <video autoPlay loop muted className='background__video h-96'>
-            <source src="https://drive.google.com/file/d/13KtgvvTnSEo5BSDZbonQX1WTq9-SIAL2/view" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe className='background__video' src="https://drive.google.com/file/d/13KtgvvTnSEo5BSDZbonQX1WTq9-SIAL2/preview" width="640" height="480" allow="autoplay"></iframe>
           <Announce />
         </div>
       
