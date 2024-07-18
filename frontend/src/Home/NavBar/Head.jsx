@@ -9,7 +9,6 @@ const Head = () => {
       <img src='/images/nitttr logo1.png' alt="Chennai Logo" className="header-logo" />
       {/* </div> */}
       {/* <div className='hRight' > */}
-      <img src='/images/G20_India_2023_logo.png' alt="G20 Logo" className="center-logo" />
       <div className="social-icons">
         <RiTwitterFill className="social-icon" />
         <RiFacebookFill className="social-icon" />
