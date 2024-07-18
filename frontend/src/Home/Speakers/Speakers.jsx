@@ -23,25 +23,22 @@ function Speakers() {
       </div>
       <div className="speakerMain w-[85%] mx-auto">
         <div className="speakerCards flex-col gap-20 md:flex-row">
-          <ProfileCard 
-            imageUrl={"/images/speakers/Balasubramanian.png"} 
-            Name="Balasubramaniyan Munnuswamy"
-            Proficiency="Skill Development, SDG,CSR, ESG, Incubation & Impact investment| NSDC,UNDP,FCDO (DFID),Fullerton, DRF|" 
-            Description="Dynamic professional backed by 20+ years of verifiable year after year success in large development projects. 
-            Systemic Private Sector led Development approaches like CSR& Sustainability, Making Markets work for the Poor (M4P)"
-          />
-          <ProfileCard 
-            imageUrl={"/images/speakers/BalaMurugan.png"} 
-            Name="Balamurugan SP"
-            Proficiency="Co-Founder - GUVI" 
-            Description="Software Engineer with an entrepreneurial mindset. Been part of IT industry for a decade and worked with world class individuals and corporates. Had an enormous learning of how the industry works and what it takes to be a successful individual in this field."
-          />
-          <ProfileCard 
-            imageUrl={"/images/speakers/Thajudeen.png"} 
-            Name="Thajudeen Aboobaker"
-            Proficiency="Founder at URBAN TRASH, Revolutionizing B2B waste Management" 
-            Description="As the founder of Urban Trash, I am on a mission to transform the way waste is managed and utilized in urban areas. I have over 7 years of experience in the waste management industry, having founded and led two other startups, cleancircle.earth and cleanlier, that focused on organic waste management and circular economy solutions."
-          />
+        <ProfileCard 
+            imageUrl={"/images/dir_un5.jpg"} 
+            Name="Prof. Dr. Usha Natesan"
+            Proficiency="Director National Institute of Technical Teacher's Training & Research" 
+            Description="Research Advisor of the Asia-Pacific Science Center (APACSCI), Singapore, 2020
+                      Academic Advisory Board Member of Cyberjaya Skill International College (CYSIC),
+                      Conferred with the Honorary Degree of Doctor of Letters (D.Litt.) by the Lincoln
+                      University College, Kuala Lumpur, Malaysia, 2019
+                     Organizing Committee Member of the International Conference on Oceanography, OMICS
+                      International, Miami, USA, 2013
+                     Recipient of the Young Scientist Project Award from the International Foundation for
+                      Science (IFS), Sweden, 2004
+                     Recipient of the Japanese Government Scholarship from the Ministry of Human Resource
+                      Development (MHRD), Government of India for pursuing Ph.D. at Japan, 1990 (Did not accept
+                      the offer as I had already enrolled for Ph.D. at IIT Madras, Chennai) "
+      />
         </div>
         {/* <div className="speakerCards">
           <ProfileCard 
