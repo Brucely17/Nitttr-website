@@ -79,7 +79,8 @@ const Navigation = () => {
             <li><a href="/institute/governing-bodies/reports">Senate</a></li>
           </SubDropdown>
           <li><a href="/institute/vision">Chairman Message</a></li>
-          <li><a href="/institute/memorandum">Director Message</a></li>
+          <li><a href="/institute/chairman">Chairman and Director</a></li>
+          <li><a href="/institute/directorMessage">Director Message</a></li>
           <li><a href="/institute/memorandum">Annual Reports</a></li>
         </Dropdown>
         <Dropdown
