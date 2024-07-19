@@ -258,7 +258,7 @@ const Navigation = () => {
           isOpen={openDropdown === 1}
           handleClick={() => handleDropdownClick(1)}
         >
-          <li><a href="//about">Sports</a></li>
+          
           <li><a href="/Recruitments/about">Faculty</a></li>
           <li><a href="/Recruitments/about">Staff</a></li>
           <li><a href="/Recruitments/about">Projects & Contract</a></li>
