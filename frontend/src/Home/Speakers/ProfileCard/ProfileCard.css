@@ -35,7 +35,8 @@
 }
 
 .profilecontainer:hover .profilewrapper img.active {
-  height: 470px;
+  height: fit-content;
+  height: 500px;
   width: 350px;
   margin: 0px auto;
   border: none;
@@ -46,16 +47,16 @@
   color: #fff;
   /* font-size: 30px; */
   /* font-weight: 500; */
-  padding: 10px;
-  line-height: 25px;
+  padding-top: 5px;
+  /* line-height: 25px; */
 }
 
 .profilewrapper .profileplace {
   color: rgb(160, 150, 150);
   /* font-size: 15px; */
-  line-height: 15px;
-  margin: 10px 0;
-  gap:5px;
+  line-height: 25px;
+  /* margin: 10px 0; */
+  /* gap:5px; */
   align-items:center;
   text-align: center;
 }
@@ -63,7 +64,7 @@
 .profilecontent {
   color: #fff;
   font-size: 12px; 
-  margin-top: 10px;
+  /* margin-top: 10px; */
   /* padding: 1px 20px 10px 20px!important; */
 }
 
