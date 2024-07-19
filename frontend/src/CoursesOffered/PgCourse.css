@@ -1,0 +1,21 @@
+.cont {
+        
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* height:1000px; */
+    }
+
+   
+   .card {
+        margin: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        
+    }
+
+    .card-body {
+        padding: 10px;
+        height: 200px;
+    }

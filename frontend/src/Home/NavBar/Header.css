@@ -7,11 +7,11 @@
     /* color: white; */
     display:flex;
    
-
+    /* transform: translateY(10%); */
     background-color: #fff;
     filter:brightness(20%);
     opacity:80%;
-    height:70px;
+    height:50px;
     justify-content: center;
     /* flex-direction:column; */
     align-items: center;
@@ -23,7 +23,7 @@
 
   .new__container{
     display: flex;
-    top:0;
+    /* top:0; */
     justify-content: space-evenly;
     /* flex-direction:column; */
     align-items: center;
@@ -59,7 +59,7 @@
 .nav__img{
   position:relative;
   /* bottom:-20px; */
-  top:-60px;
+  top:-70px;
   width:100%;
   /* max-width:auto; */
   

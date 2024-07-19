@@ -67,7 +67,7 @@ const Navigation = () => {
           handleClick={() => handleDropdownClick(1)}
         >
           <li><a href="/institute/about">About Us</a></li>
-          <li><a href="/institute/about">Vision & Mission</a></li>
+          <li><a href="/institute/vissionMission">Vision & Mission</a></li>
           <li><a href="/institute/about">Memorandum of Association </a></li>
           <SubDropdown
             title="Governing Bodies"
@@ -230,6 +230,7 @@ const Navigation = () => {
           <li><a href="/Admission/about">Admission Policy</a></li>
           <li><a href="/Admission/about">PG Regulations</a></li>
           <li><a href="/Admission/about">PhD Regulations</a></li>
+          <li><a href="/Admission/pgcourses">Courses offered</a></li>
         </Dropdown>
         <Dropdown
           title="Facilities"

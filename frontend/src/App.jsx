@@ -1,38 +1,38 @@
 import { useState } from 'react'
-// import Header from './Home/Header/Header'
-import Intro from './Home/Intro/Intro'
-// import Speakers from './Home/Speakers/Speakers'
+
 import Footer from './Home/Footer/Footer';
 import Header from './Home/NavBar/Header';
+import { BrowserRouter , Route,  Routes } from 'react-router-dom';
 
-import ImageSlider from './Home/ImageSlider/ImageSlider';
 import './App.css';
-import Speakers from './Home/Speakers/Speakers';
-import QuickLinks from './Home/Quicklinks/Quicklinks.jsx';
-import Announcements from './Home/AnnAch/Announcements';
-import Gallery from './Home/Gallery/Gallery';
-import Expertise from './Home/Expertise/Expertise.jsx';
 
+import VisionMission from './Institute/VisionMission.jsx';
+import ResourceCenter from './ResourceCenter/ResourceCenter.jsx';
+import PgCourse from './CoursesOffered/PgCourse.jsx';
+// import Overseas from './Overseas/Overseas.jsx';
+import Home from './Home/Home.jsx';
 function App() {
 
 
   return (
-    <div >
-    {/* <Header/> */}
+    <>
     <Header/>
-    {/* <Speakers/> */}
-      {/* <Intro /> */}
-  {/* <ImageSlider/> */}
-  <Speakers/>
-  {/* <QuickLinks/> */}
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+    <Route path='/academics/centres/resource' element={<ResourceCenter/>}/>
+    <Route path='/Admission/pgcourses' element={<PgCourse/>}/>
+    {/* <Route path='/overseas' element={<Overseas/>}/> */}
+    <Route path='/institute/vissionMission' element={<VisionMission/>}/>
+</Routes>
+  
+ 
 
-  <Announcements/>
-  <Expertise/>
-  <Gallery/>
-  <Footer/>
+   
+    </BrowserRouter>
+    <Footer/>
+    </>
 
-    </div>
-    
   )
 }
 
