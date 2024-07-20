@@ -13,6 +13,8 @@ import PgCourse from './CoursesOffered/PgCourse.jsx';
 import Home from './Home/Home.jsx';
 import Director from './About/Director.jsx';
 import Chairman from './About/Chairman.jsx';
+import BisCorner from './Connect/BisCorner.jsx';
+import Newsletter from './Newsletter/Newsletter.jsx';
 function App() {
 
 
@@ -24,6 +26,8 @@ function App() {
       <Route path='/' element={<Home/>}/>
     <Route path='/academics/centres/resource' element={<ResourceCenter/>}/>
     <Route path='/Admission/pgcourses' element={<PgCourse/>}/>
+    <Route path='/InformationCorner/biscorner' element={<BisCorner/>}/>
+    <Route path='/InformationCorner/newsletter' element={<Newsletter/>}/>
     {/* <Route path='/overseas' element={<Overseas/>}/> */}
     <Route path='/institute/vissionMission' element={<VisionMission/>}/>
     <Route path='/institute/directorMessage' element={<Director/>}/>

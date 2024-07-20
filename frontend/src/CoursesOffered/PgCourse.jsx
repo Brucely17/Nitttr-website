@@ -12,7 +12,7 @@ const courses = [
     { image: '/images/mba.jpeg', title: 'M.B.A. (BUSINESS ANALYTICS)', pdfLink: './images/CRED_V2.pdf' },
 ];
 
-const PgCourse = () => {
+const PgCourse = () => {    
     return (
         <div className="cont mx-auto p-8">
             <div className="text-center mb-8">

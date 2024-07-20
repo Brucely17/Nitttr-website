@@ -251,9 +251,9 @@ const Navigation = () => {
           <li><a href="/Information Corner/about">Fee Payment</a></li>
           <li><a href="/Information Corner/about">Mandatory Disclosure</a></li>
           <li><a href="/Information Corner/about">Equal Opportunity Policy </a></li>
-          <li><a href="/Information Corner/about">News Letters</a></li>
+          <li><a href="/InformationCorner/newsletter">News Letters</a></li>
           <li><a href="/Information Corner/about">Circular</a></li>
-          <li><a href="/Information Corner/about">Bis Corner</a></li>
+          <li><a href="/InformationCorner/biscorner">Bis Corner</a></li>
         </Dropdown>
         <Dropdown
           title="Recruitments"
