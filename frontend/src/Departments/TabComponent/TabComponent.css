@@ -1,0 +1,77 @@
+.tab {
+    float: left;
+    border: 1px #ccc;
+    width: 22%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .tab {
+      width: 100% !important;
+    }
+    .tab button {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .tab {
+      width: 100% !important;
+    }
+    .tab button {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .tab button {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .tab {
+      width: 21% !important;
+    }
+  }
+  
+  .tab button {
+    display: block;
+    padding: 12px 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #967e7e;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: black;
+    background-color: #eee;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .tab button:hover {
+    text-transform: uppercase;
+    background-color: #ffd700;
+    box-shadow: 0px 15px 20px rgba(13, 2, 3, 0.3);
+    color: white;
+    transform: translateY(-7px);
+  }
+  
+  .tab button.active {
+    background-color: #FFD700;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .tabcontents {
+    float: left;
+    border: 1px #ccc;
+    width: 78%;
+    height: 100%;
+  }
+  

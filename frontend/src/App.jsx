@@ -6,6 +6,7 @@ import { BrowserRouter , Route,  Routes } from 'react-router-dom';
 
 import './App.css';
 
+import Civil from './Departments/Civil.jsx'
 import VisionMission from './About/VisionMission.jsx';
 import ResourceCenter from './ResourceCenter/ResourceCenter.jsx';
 import PgCourse from './CoursesOffered/PgCourse.jsx';
@@ -29,7 +30,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
     <Route path='/academics/centres/resource' element={<ResourceCenter/>}/>
     <Route path='/Admission/pgcourses' element={<PgCourse/>}/>
-    {/* <Route path='/overseas' element={<Overseas/>}/> */}
+  
     <Route path='/institute/vissionMission' element={<VisionMission/>}/>
     <Route path='/institute/directorMessage' element={<Director/>}/>
     <Route path='/institute/chairman' element={<Chairman/>}/>
@@ -37,6 +38,7 @@ function App() {
     <Route path='/Academics/FacultyDepartment/FacultyofEducation' element={<Feducation/>}/>
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
+    <Route path= '/Departments/Civil' element={<Civil/>}/>
 </Routes>
   
  
