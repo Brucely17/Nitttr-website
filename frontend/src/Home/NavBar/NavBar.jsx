@@ -251,9 +251,17 @@ const Navigation = () => {
           <li><a href="/Information Corner/about">Fee Payment</a></li>
           <li><a href="/Information Corner/about">Mandatory Disclosure</a></li>
           <li><a href="/Information Corner/about">Equal Opportunity Policy </a></li>
+          <li><a target='_blank' href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=3755167">Fee Payment</a></li>
+          <li><a target='_blank' href="https://www.nitttrc.ac.in/uploads/NITTTRc-AICTE.pdf">Mandatory Disclosure</a></li>
+          <li><a target='_blank' href="https://www.nitttrc.ac.in/uploads/Equal_opportunity_policy_NISER.pdf">Equal Opportunity Policy </a></li>
           <li><a href="/InformationCorner/newsletter">News Letters</a></li>
           <li><a href="/Information Corner/about">Circular</a></li>
           <li><a href="/InformationCorner/biscorner">Bis Corner</a></li>
+          <li><a href="/InformationCorner/RTIACT">RTI ACT</a></li>
+          <li><a href="/InformationCorner/BROCHURE">BROCHURE</a></li>
+          <li><a href="https://email.gov.in/" target='_blank'>WEBMAIl</a></li>
+          <li><a href="/rti/2024/Pan,Tan,GSTINdetails.pdf" target='_blank'>New PAN, TAN and GSTIN Details</a></li>
+          <li><a href="/rti/2024/EOA Report 2024-2025.pdf" target='_blank'>EOA Report 2024-2025</a></li>
         </Dropdown>
         <Dropdown
           title="Recruitments"
