@@ -138,9 +138,9 @@ const Navigation = () => {
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Academics/Faculty & Department/Faculty of Engineering and Technology">Faculty of Engineering and Technology</a></li>
-            <li><a href="/Academics/Faculty & Department/Faculty of Education">Faculty of Education</a></li>
-            <li><a href="/Academics/Faculty & Department/Faculty of Management">Faculty of Management</a></li>
+            <li><a href="/Academics/FacultyDepartment/FacultyofEngineeringandTechnology">Faculty of Engineering and Technology</a></li>
+            <li><a href="/Academics/FacultyDepartment/FacultyofEducation">Faculty of Education</a></li>
+            <li><a href="/Academics/FacultyDepartment/FacultyofManagement">Faculty of Management</a></li>
           </SubDropdown>
           <li><a href="/academics/publications">Professional Development Program</a></li>
           <li><a href="/academics/publications">International Training Prrogram</a></li>

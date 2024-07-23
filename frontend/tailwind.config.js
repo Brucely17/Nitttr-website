@@ -20,6 +20,10 @@ export default {
         rotate: 'rotate 10s linear infinite',
       },
       colors: {
+       
+          'blurred': '#8cc5bb',
+          'yellow': '#f59e0b',
+      
         color: {
           1: "#AC6AFF",
           2: "#FFC876",
