@@ -10,11 +10,11 @@ const Dropdown = ({ title, icon, children }) => {
   };
 
   return (
-    <div className="dropdown__item">
-      <div className="nav__link" onClick={toggleDropdown}>
+    <div className="dropdown__item" style={{zIndex:'10'}}>
+      <div className="nav__link" onClick={toggleDropdown} style={{zIndex:'10'}}>
          {title}<RiArrowDownSLine className={`dropdown__arrow ${dropdownOpen ? 'rotate' : ''}`} />
       </div>
-      <ul className={`dropdown__menu ${dropdownOpen ? 'show' : ''}`}>
+      <ul className={`dropdown__menu ${dropdownOpen ? 'show' : ''}`} style={{zIndex:'10'}}>
         {children}
       </ul>
     </div>
@@ -37,7 +37,7 @@ const DropdownSubItem = ({ title, icon, children }) => {
   };
 
   return (
-    <li className="dropdown__subitem">
+    <li className="dropdown__subitem" style={{zIndex:'10'}}>
       <div className="dropdown__link" onClick={toggleSubmenu}>
         {icon} {title} <RiAddLine className={`dropdown__add ${submenuOpen ? 'rotate' : ''}`} />
       </div>

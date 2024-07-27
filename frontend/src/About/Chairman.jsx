@@ -6,11 +6,11 @@ const CardComponent = ({ img, name, year }) => {
     <motion.div
     whileHover={{scale:1.05}}
     whileTap={{scale:0.95}}
-    className='flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4 shadow-sm transition-all duration-300'>
+    className='flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4 shadow-sm transition-all duration-300' >
       <img src={img} alt={name} className='w-3/4 h-auto rounded-lg ' />
-      <div className='w-3/4 flex flex-col items-center text-center rounded-lg bg-yellow-400 mt-2 p-3 shadow-inner'>
-        <p className='font-medium text-base'>{name}</p>
-        <p className='font-light text-sm text-gray-600'>{year}</p>
+      <div className='w-3/4 flex flex-col items-center text-center rounded-lg bg-blue-700 mt-2 p-3 shadow-inner'>
+        <p className='font-medium text-white-400 text-base'>{name}</p>
+        <p className='font-light text-sm text-gray-400'>{year}</p>
       </div>
     </motion.div>
   );

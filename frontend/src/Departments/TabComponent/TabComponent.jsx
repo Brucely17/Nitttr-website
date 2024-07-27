@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './TabComponent.css'; // Import the CSS file for custom styles
 import VisionComponent from '../VisionComponent/VisionComponent.jsx';
+import Core from '../Core/Core.jsx';
+import Domain from '../Domain/Domain.jsx';
 
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState('vision');
@@ -20,6 +22,45 @@ const missionCivil = [
   "To design new instructional systems and strategies for the production of multimedia learning resources and transfer through the latest technologies including broadcasting, webcasting/Multicasting.",
   "To offer faculty exchange programs by linking with various Universities of India and abroad"
 ];
+
+const programs = [
+  [
+    { title: 'Geographical Information System and its Applications', width: 6 },
+    { title: 'Computer Applications in Project Management', width: 4 }
+  ],
+  [
+    { title: 'Modern Surveying using Total Station and GPS', width: 4 },
+    { title: 'Disaster Management', width: 3 }
+  ],
+  [
+    { title: 'Teaching Engineering Mechanics', width: 4 },
+    { title: 'Free and Open Source Software in Civil Engineering', width: 6 }
+  ],
+  [
+    { title: 'Trends in Urban Planning and SMART Cities Development', width: 6 },
+    { title: 'Civil Engineering Drawing using AutoCAD', width: 4 }
+  ],
+  [
+    { title: 'Construction Techniques and Management', width: 5 },
+    { title: 'Computer Applications in Structural Engineering', width: 5 }
+  ],
+  [
+    { title: 'Design of Steel Structures', width: 4 },
+    { title: 'Geotechnical Engineering', width: 3 }
+  ],
+  [
+    { title: 'Earthquake Resistant Structures', width: 4 },
+    { title: 'Strategic Planning and Institutional Development', width: 6 }
+  ],
+  [
+    { title: 'Design of Bridges & Irrigation Structures', width: 6 }
+  ],
+  [
+    { title: 'Design of RCC Structures', width: 4 },
+    { title: 'Outcome Based Education and Accreditation', width: 6 }
+  ]
+];
+
 
   return (
     <div className="flex flex-col md:flex-row p-10">
@@ -112,8 +153,8 @@ const missionCivil = [
 
       <div className="tabcontent flex-1 p-6">
         {activeTab === 'vision' && <div className="animate-slideUp"><VisionComponent vision={visionCivil} mission={missionCivil}/></div>}
-        {activeTab === 'core' && <div className="animate-slideUp">Core Values Content</div>}
-        {activeTab === 'short' && <div className="animate-slideUp">Domain of Short Term Programmes Content</div>}
+        {activeTab === 'core' && <div className="animate-slideUp"><Core title="Core Values" imagePath="/images/core_civil.png"/> </div>}
+        {activeTab === 'short' && <div className="animate-slideUp"><Domain title="Domain of Short Term Programme" programs={programs} /></div>}
         {activeTab === 'long' && <div className="animate-slideUp">Post Graduate Programme (M.E/ M.Tech) Content</div>}
         {activeTab === 'research' && <div className="animate-slideUp">Research Programme Content</div>}
         {activeTab === 'training-program' && <div className="animate-slideUp">International Training Program Content</div>}

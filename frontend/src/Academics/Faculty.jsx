@@ -128,9 +128,9 @@ const Faculty = () => {
   ];
 
   return (
-    <div className="p-5 relative" style={{ zIndex: "-10" }}>
-      <h1 className="text-4xl font-bold text-center text-blue-600 mb-10 animate-fade-in" style={{ zIndex: "-10" }}>Faculty of Engineering and Technology</h1>
-      <div className="card-container" style={{ zIndex: "-10" }}>
+    <div className="p-5 relative" >
+      <h1 className="text-4xl font-bold text-center text-blue-600 mb-10 animate-fade-in" >Faculty of Engineering and Technology</h1>
+      <div className="card-container" >
         {facultyData.map((faculty, index) => (
           <div key={index} className="card-wrapper">
             <CardComponent {...faculty} />

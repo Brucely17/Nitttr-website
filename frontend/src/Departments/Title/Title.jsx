@@ -33,7 +33,7 @@ const Title = () => {
   }, []);
 
   return (
-    <div className="ml5 text-gray-500">
+    <div className="ml5 text-gray-500" style={{zIndex:'-1'}}>
       <center>
         <span className="text-wrapper">
           <span className="line line1"></span>

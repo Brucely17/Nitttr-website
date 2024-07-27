@@ -8,7 +8,7 @@ import TabComponent from './TabComponent/TabComponent';
 
 const Civil = () => {
   return (
-    <div className=''>
+    <div >
        <Title/>
        <TabComponent/>
         </div>
