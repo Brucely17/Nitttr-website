@@ -3,13 +3,31 @@ import './TabComponent.css'; // Import the CSS file for custom styles
 import VisionComponent from '../VisionComponent/VisionComponent.jsx';
 import Core from '../Core/Core.jsx';
 import Domain from '../Domain/Domain.jsx';
-
+import GraduateProgram from '../GraduateProgram/GraduateProgram.jsx'
+import ResearchProgram from '../ResearchProgram/ResearchProgram.jsx';
+import Training from '../Training/Training.jsx';
+import Curriculum from '../Curriculum/Curriculum.jsx';
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState('vision');
 
   const handleTabClick = (event, tabName) => {
     setActiveTab(tabName);
   };
+ 
+  const curriculaItems = [
+    "Continuously Involved in Developing Curriculum for the Polytechnic Colleges of Southern States through Directorate Technical Education of Southern states.",
+    "Involved in Developing Curriculum for the B.E, Civil Engineering, M.E (Remote Sensing), M.E (Infrastructure Engineering and Management)"
+  ];
+  const trainingItems = [
+    "Spatial Information Technology for Urban Planning and Management – 3 Batches",
+    "GIS Applications in Natural Resources Management – 2 Batches",
+    "Sponsored by Indian Technical & Economic Cooperation (ITEC), Technical Co-operation Scheme of Colombo Plan (TCS) & Special Commonwealth African Assistance Programme (SCAAP)"
+  ];
+  const researchItems = [
+    "Ph.D. - Civil Engineering",
+    "Ph.D. - Engineering Education",
+    "(Ph.D. - Degree Awarded - 6, Ongoing - 8)"
+  ];
 
   const visionCivil = "Towards Excellence in Promoting need based Training Programmes and Research in Civil Engineering";
 const missionCivil = [
@@ -23,6 +41,22 @@ const missionCivil = [
   "To offer faculty exchange programs by linking with various Universities of India and abroad"
 ];
 
+const materialDev = [
+  [{title:"Quality Assurance in Engineering Education"},
+  {title:"Modeling & Animation using 3D Studio Max"}],
+  [{title:"Construction Materials & Techniques"},
+  {title:"Structural Analysis"}],
+  [{title:"Engineering Drawing using AutoCAD"},
+  {title:"Geographical Information Systems"}],
+  [{title:"Computer Applications in Analysis and Design of Structures"},
+  {title:"Instructional Objectives"}],
+  [{title:"Limit State Design of Concrete structural Elements"}],
+  [{title:"Computer Applications for Project Management"}],
+  [{title:"Modern Surveying (Total Station and GPS)"},
+  {title:"Repairs & Renovations of Structures"}],
+  [{title:"Evaluation of Students"},
+  {title:"Structural Steel Design using IS 800 2007"}]
+];
 const programs = [
   [
     { title: 'Geographical Information System and its Applications', width: 6 },
@@ -61,9 +95,22 @@ const programs = [
   ]
 ];
 
+const graduate={
+  title:"Graduate Programme (M.E/ M.Tech)",
+  content : [
+    'M.E (Infrastructure Engineering and Management)',
+    'Infrastructure is a basic system that a country or an organization uses in order to work efficiently. The program lays emphasis on Construction/Infrastructure engineering in terms of designing, planning and environmental management of large buildings, townships, roads and bridges, transportation engineering and Infrastructure Projects. The Employment opportunities include Real Estate, Private and Public Sector Undertaking, Transportation Centres, Consultancy Firms, Industrial Plants and Housing & Urban Development Authorities. More than all the above opportunities NITTTR will provide an excellent Job opportunity to serve as a great teacher in Engineering and Polytechnic Colleges to the successful students.'
+  ],
+  syllabusLink :'/graduate/syllabus.pdf',
+  pdfSrc:'/graduate/syllabus.pdf'
+
+  
+};
+
+
 
   return (
-    <div className="flex flex-col md:flex-row p-10">
+    <div className="flex flex-row md:flex-row p-10">
       <div className="tab flex flex-col w-full md:w-1/4 border-r border-gray-300">
         <button
           className={`tablinks ${activeTab === 'vision' ? 'active' : ''} px-2 py-1 text-left focus:outline-none`}
@@ -155,11 +202,17 @@ const programs = [
         {activeTab === 'vision' && <div className="animate-slideUp"><VisionComponent vision={visionCivil} mission={missionCivil}/></div>}
         {activeTab === 'core' && <div className="animate-slideUp"><Core title="Core Values" imagePath="/images/core_civil.png"/> </div>}
         {activeTab === 'short' && <div className="animate-slideUp"><Domain title="Domain of Short Term Programme" programs={programs} /></div>}
-        {activeTab === 'long' && <div className="animate-slideUp">Post Graduate Programme (M.E/ M.Tech) Content</div>}
-        {activeTab === 'research' && <div className="animate-slideUp">Research Programme Content</div>}
-        {activeTab === 'training-program' && <div className="animate-slideUp">International Training Program Content</div>}
-        {activeTab === 'curricula' && <div className="animate-slideUp">Curricula Development Content</div>}
-        {activeTab === 'instructional-material' && <div className="animate-slideUp">Instructional Materials Development Content</div>}
+        {activeTab === 'long' && <div className="animate-slideUp"><GraduateProgram
+        title={graduate.title}
+        content={graduate.content}
+        syllabusLink={graduate.syllabusLink}
+        pdfSrc={graduate.pdfSrc}
+        />
+        </div>}
+        {activeTab === 'research' && <div className="animate-slideUp"><ResearchProgram title="Research Programme" researchItems={researchItems} /></div>}
+        {activeTab === 'training-program' && <div className="animate-slideUp"> <Training title="International Training Programme" trainingItems={trainingItems} /></div>}
+        {activeTab === 'curricula' && <div className="animate-slideUp"><Curriculum title="Curricula Developed" curriculaItems={curriculaItems} /></div>}
+        {activeTab === 'instructional-material' && <div className="animate-slideUp"><Domain title="Instructions and Material Development" programs={materialDev} /></div>}
         {activeTab === 'cad-lab' && <div className="animate-slideUp">CAD & Project Management Lab Content</div>}
         {activeTab === 'gis-lab' && <div className="animate-slideUp">GIS and Modern Surveying Lab Content</div>}
         {activeTab === 'mtc-lab' && <div className="animate-slideUp">Material Testing and Concrete Lab Content</div>}

@@ -56,14 +56,14 @@
   
   .tab button:hover {
     text-transform: uppercase;
-    background-color: #ffd700;
+    /* background-color: ; */
     box-shadow: 0px 15px 20px rgba(13, 2, 3, 0.3);
-    color: white;
+    /* color: white; */
     transform: translateY(-7px);
   }
   
   .tab button.active {
-    background-color: #FFD700;
+    background-color:cornflowerblue;
     text-transform: uppercase;
     color: white;
   }

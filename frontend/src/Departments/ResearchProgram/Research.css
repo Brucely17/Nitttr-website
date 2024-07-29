@@ -1,13 +1,12 @@
-
-  
-  /* Additional custom styles */
-  .tabcontent {
+/* Container styling */
+.tabcontent {
     background-color: #f9f9f9;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
+  /* Section title styling */
   .section-title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -16,13 +15,11 @@
     text-align: center;
   }
   
-  .bg-lavender {
-    background-color: lavender;
-  }
+  /* Icon bullet styling */
   
-  .well {
-    padding: 1rem;
-    border-radius: 0.25rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  /* Text justification */
+  .justify {
+    text-align: justify;
   }
   

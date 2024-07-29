@@ -1,0 +1,12 @@
+/* Custom styles */
+.tabcontent {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  
