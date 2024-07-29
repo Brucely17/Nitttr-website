@@ -7,6 +7,8 @@ import GraduateProgram from '../GraduateProgram/GraduateProgram.jsx'
 import ResearchProgram from '../ResearchProgram/ResearchProgram.jsx';
 import Training from '../Training/Training.jsx';
 import Curriculum from '../Curriculum/Curriculum.jsx';
+import CadLab from '../CadLab/CadLab.jsx';
+import { Faculty } from '../Faculty/Faculty.jsx';
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState('vision');
 
@@ -40,6 +42,82 @@ const missionCivil = [
   "To design new instructional systems and strategies for the production of multimedia learning resources and transfer through the latest technologies including broadcasting, webcasting/Multicasting.",
   "To offer faculty exchange programs by linking with various Universities of India and abroad"
 ];
+const cad={
+  title:"CAD & Project Management Lab",
+  description: "Fully equipped CAD & Project Management Lab with 20 terminals and adequate accessories with projection facilities, Popular software in the areas of CAD, AutoCAD, Revit Arch, STAAD Pro, SCADDS, MS Project, Primavera.",
+  images:[
+    { src: "/cad/cadlab1.jpg", alt: "CAD Lab 1", captionTitle: "", captionText: "" },
+    { src: "/cad/sctlab.jpg", alt: "SCT Lab", captionTitle: "", captionText: "" }
+  ]
+}
+
+const gis ={
+  title:"GIS Lab",
+  description:"10 Computers with Leading GIS Software like Arc GIS (30 users), Map Info and Quantum GIS, Image Processing software like ERDAS/ENVI, Total Station, Differential GPS, and handheld GPS navigators.  ",
+  images:[
+    { src: "/cad/GIS_Lab-1.jpg", alt: "CAD Lab 1", captionTitle: "", captionText: "" },
+    { src: "/cad/GIS_Lab-2.jpg", alt: "SCT Lab", captionTitle: "", captionText: "" }
+  ]
+}
+
+
+const materialLab ={
+  title:"Material Testing Lab",
+  description:"Computerized Automatic Servo Controlled Universal Testing Machine (100 T) (6 Pillar Model) Computerized Automatic Digital Compression Testing Machine (100 T) for testing and other equipment to test concrete, sand, and cement",
+  images:[
+    { src: "/cad/cadlab1.jpg", alt: "CAD Lab 1", captionTitle: "", captionText: "" },
+    { src: "/cad/ConcreteLab1.jpg", alt: "SCT Lab", captionTitle: "", captionText: "" },
+    {src: "/cad/ConcreteLab2.jpg", alt: "SCT Lab", captionTitle: "", captionText: "" },
+    {src: "/cad/ConcreteLab3.jpg", alt: "SCT Lab", captionTitle: "", captionText: "" }
+  ]
+}
+
+const sel ={
+  title:"Structural Engineering Lab",
+  description:"Computerized 100 Ton Loading frame (Servo Controlled Model fully automatic) with accessories to test flexural Strength (Single and two points loading) of Slabs, Beams, and Columns.",
+  images:[
+    { src: "/cad/civil_Seminar_Hall.jpg", alt: "CAD Lab 1", captionTitle: "", captionText: "" },
+    { src: "/cad/struct_Lab.jpg", alt: "SCT Lab", captionTitle: "", captionText: "" }
+  ]
+}
+
+const geol={
+  title:"Geotechnical Engineering Lab",
+  description:"Laboratory facilities to carryout typical experiments to test on Soil",
+  images:[
+    // { src: "/cad/civil_Seminar_Hall.jpg", alt: "CAD Lab 1", captionTitle: "", captionText: "" },
+  ]
+}
+
+const fac=[
+{
+  name:'Dr.E.S.M.Suresh,',
+  pos:'M.E.,Ph.D.,',
+  des:'Professor'
+
+},
+{
+  name:'Dr.R.Santhakumar,',
+  pos:"B.E.,M.E.,Ph.D.,",
+  des:'Professor and Head'
+},
+{
+  name:"Dr.Janardhanan,",
+  pos:'M.E.,Ph.D(USA),',
+  des:'Professor'
+},
+{
+  name:"Dr.K.S.A.Dinesh Kumar,",
+  pos:'M.E.,Ph.D,',
+  des:'Professor'
+},
+{
+  name:"Dr.Vinod Kumar Adigopula,,",
+  pos:'M.Tech.,Ph.D,',
+  des:'Assistant Professor'
+}
+]
+
 
 const materialDev = [
   [{title:"Quality Assurance in Engineering Education"},
@@ -213,12 +291,12 @@ const graduate={
         {activeTab === 'training-program' && <div className="animate-slideUp"> <Training title="International Training Programme" trainingItems={trainingItems} /></div>}
         {activeTab === 'curricula' && <div className="animate-slideUp"><Curriculum title="Curricula Developed" curriculaItems={curriculaItems} /></div>}
         {activeTab === 'instructional-material' && <div className="animate-slideUp"><Domain title="Instructions and Material Development" programs={materialDev} /></div>}
-        {activeTab === 'cad-lab' && <div className="animate-slideUp">CAD & Project Management Lab Content</div>}
-        {activeTab === 'gis-lab' && <div className="animate-slideUp">GIS and Modern Surveying Lab Content</div>}
-        {activeTab === 'mtc-lab' && <div className="animate-slideUp">Material Testing and Concrete Lab Content</div>}
-        {activeTab === 'structural-lab' && <div className="animate-slideUp">Structural Engineering Lab Content</div>}
-        {activeTab === 'geotech-lab' && <div className="animate-slideUp">Geotechnical Engineering Lab Content</div>}
-        {activeTab === 'faculty' && <div className="animate-slideUp">Faculty Content</div>}
+        {activeTab === 'cad-lab' && <div className="animate-slideUp"><CadLab title={cad.title} description={cad.description} images={cad.images} /></div>}
+        {activeTab === 'gis-lab' && <div className="animate-slideUp"><CadLab title={gis.title} description={gis.description} images={gis.images} /></div>}
+        {activeTab === 'mtc-lab' && <div className="animate-slideUp"><CadLab title={materialLab.title} description={materialLab.description} images={materialLab.images} /></div>}
+        {activeTab === 'structural-lab' && <div className="animate-slideUp"><CadLab title={sel.title} description={sel.description} images={sel.images} /></div>}
+        {activeTab === 'geotech-lab' && <div className="animate-slideUp"><CadLab title={geol.title} description={geol.description} images={geol.images} /></div>}
+        {activeTab === 'faculty' && <div className="animate-slideUp"><Faculty faculty={fac}/></div>}
       </div>
     </div>
   );
