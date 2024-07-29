@@ -160,6 +160,19 @@ const Navigation = () => {
             <li><a href="/Academics/OER/LMS">LMS</a></li>
           </SubDropdown>
         </Dropdown>
+        <Dropdown 
+        title="Governance"
+        isOpen={openDropdown === 1}
+        handleClick={() => handleDropdownClick(1)}
+        >
+          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>MEMORANDUM OF ASSOCIATION</a></li>
+          <li><a href='GOVERNANCE/ACADEMIC-COUNCIL'>ACADEMIC COUNCIL</a></li>
+          <li><a>ADMINISTRATION</a></li>
+          <li><a>BOG MINUTES</a></li>
+          <li><a>ANNUAL PROPERTY RETURNS</a></li>
+          <li><a>ANNUAL REPORTS</a></li>
+          <li><a>INTERNAL COMPLAINTS COMMITTEE</a></li>
+        </Dropdown>
         <Dropdown
           title="Study @ NITTTR"
           isOpen={openDropdown === 1}
@@ -248,11 +261,9 @@ const Navigation = () => {
           isOpen={openDropdown === 1}
           handleClick={() => handleDropdownClick(1)}
         >
-          <li><a href="/Information Corner/about">Fee Payment</a></li>
-          <li><a href="/Information Corner/about">Mandatory Disclosure</a></li>
-          <li><a href="/Information Corner/about">Equal Opportunity Policy </a></li>
           <li><a target='_blank' href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=3755167">Fee Payment</a></li>
           <li><a target='_blank' href="https://www.nitttrc.ac.in/uploads/NITTTRc-AICTE.pdf">Mandatory Disclosure</a></li>
+          <li><a target='_blank' href='https://nittt.ac.in/'>NITTT</a></li>
           <li><a target='_blank' href="https://www.nitttrc.ac.in/uploads/Equal_opportunity_policy_NISER.pdf">Equal Opportunity Policy </a></li>
           <li><a href="/InformationCorner/newsletter">News Letters</a></li>
           <li><a href="/Information Corner/about">Circular</a></li>
@@ -260,6 +271,7 @@ const Navigation = () => {
           <li><a href="/InformationCorner/RTIACT">RTI ACT</a></li>
           <li><a href="/InformationCorner/BROCHURE">BROCHURE</a></li>
           <li><a href="https://email.gov.in/" target='_blank'>WEBMAIl</a></li>
+          <li><a href='/InformationCorner/JTVE'>JTVE</a></li>
           <li><a href="/rti/2024/Pan,Tan,GSTINdetails.pdf" target='_blank'>New PAN, TAN and GSTIN Details</a></li>
           <li><a href="/rti/2024/EOA Report 2024-2025.pdf" target='_blank'>EOA Report 2024-2025</a></li>
         </Dropdown>

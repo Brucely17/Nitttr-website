@@ -21,6 +21,9 @@ import Feducation from './Academics/Feducation.jsx';
 import Fmanagement from './Academics/Fmanagement.jsx';
 import RTIACT from './Home/RTIACT/RTIACT.jsx';
 import Brochure from './Brochure/Brochure.jsx';
+import JTVE from './Home/JTVE/JTVE.jsx';
+import MemorandumAssociation from './Home/Governance/MemorandumAssociation.jsx';
+import AcademicCouncil from './Home/Governance/AcademicCouncil.jsx';
 
 
 function App() {
@@ -36,6 +39,8 @@ function App() {
       <Route path='/' element={<Home/>}/>
     <Route path='/academics/centres/resource' element={<ResourceCenter/>}/>
     <Route path='/Admission/pgcourses' element={<PgCourse/>}/>
+    <Route path='/Governance/MEMORANDUMOFASSOCIATION' element={<MemorandumAssociation/>}/>
+    <Route path='/GOVERNANCE/ACADEMIC-COUNCIL' element={<AcademicCouncil/>}/>
     <Route path='/InformationCorner/biscorner' element={<BisCorner/>}/>
     <Route path='/InformationCorner/newsletter' element={<Newsletter/>}/>
     <Route path='/InformationCorner/RTIACT' element={<RTIACT/>}/>
@@ -48,6 +53,7 @@ function App() {
     <Route path='/Academics/FacultyDepartment/FacultyofEducation' element={<Feducation/>}/>
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
+    <Route path='/InformationCorner/JTVE' element={<JTVE/>} />
     
     <Route path= '/Departments/Civil' element={<Civil/>}/>
 </Routes>
