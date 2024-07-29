@@ -26,6 +26,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 2 Issue 1</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JULY-SEPTEMBER 2019</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv21.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv21.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -36,6 +37,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 2 Issue 2</td>
                     <td className="px-4 py-2 text-center border border-gray-400">OCTOBER - DECEMBER 2019</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv22.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv22.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -46,6 +48,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 3 Issue 1</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JANUARY - JUNE 2020</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv31.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv31.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -56,6 +59,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 3 Issue 2</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JULY-DECEMBER 2020</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv32.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv32.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -66,6 +70,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 4 Issue 1</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JANUARY-JUNE 2021</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv41.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv41.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -76,6 +81,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 4 Issue 2</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JULY-DECEMBER 2021</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv42.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv42.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -86,6 +92,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 5 Issue 1</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JANUARY-JUNE 2022</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv51.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv51.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
@@ -96,6 +103,7 @@ const BisCorner = () => {
                     <td className="px-4 py-2 text-center border border-gray-400">Volume 5 Issue 2</td>
                     <td className="px-4 py-2 text-center border border-gray-400">JULY-DECEMBER 2022</td>
                     <td className="px-4 py-2 text-center border border-gray-400">
+                      <a href="./newsletters/nlv52.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block"></a>
                       <a href="https://www.nitttrc.ac.in/newsletters/nlv52.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         PDF
                       </a>
