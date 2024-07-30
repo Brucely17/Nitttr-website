@@ -167,7 +167,7 @@ const Navigation = () => {
         >
           <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>MEMORANDUM OF ASSOCIATION</a></li>
           <li><a href='GOVERNANCE/ACADEMIC-COUNCIL'>ACADEMIC COUNCIL</a></li>
-          <li><a>ADMINISTRATION</a></li>
+          <li><a href='GOVERNACE/ADMINISTRATION'>ADMINISTRATION</a></li>
           <li><a>BOG MINUTES</a></li>
           <li><a>ANNUAL PROPERTY RETURNS</a></li>
           <li><a>ANNUAL REPORTS</a></li>

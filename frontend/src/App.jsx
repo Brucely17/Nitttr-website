@@ -24,6 +24,7 @@ import Brochure from './Brochure/Brochure.jsx';
 import JTVE from './Home/JTVE/JTVE.jsx';
 import MemorandumAssociation from './Home/Governance/MemorandumAssociation.jsx';
 import AcademicCouncil from './Home/Governance/AcademicCouncil.jsx';
+import Administration from './Home/Governance/Administration.jsx';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
     <Route path='/Admission/pgcourses' element={<PgCourse/>}/>
     <Route path='/Governance/MEMORANDUMOFASSOCIATION' element={<MemorandumAssociation/>}/>
     <Route path='/GOVERNANCE/ACADEMIC-COUNCIL' element={<AcademicCouncil/>}/>
+    <Route path='/GOVERNACE/ADMINISTRATION' element={<Administration/>}/>
     <Route path='/InformationCorner/biscorner' element={<BisCorner/>}/>
     <Route path='/InformationCorner/newsletter' element={<Newsletter/>}/>
     <Route path='/InformationCorner/RTIACT' element={<RTIACT/>}/>
