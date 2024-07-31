@@ -169,7 +169,6 @@ const Navigation = () => {
           <li><a href='ACADEMIC-COUNCIL'>ACADEMIC COUNCIL</a></li>
           <li><a href='ADMINISTRATION'>ADMINISTRATION</a></li>
           <li><a href='BOGMINUTES'>BOG MINUTES</a></li>
-          <li><a>ANNUAL PROPERTY RETURNS</a></li>
           <li><a href='ANNUALREPORTS'>ANNUAL REPORTS</a></li>
           <li><a href="/Governance/Annualpr">ANNUAL PROPERTY RETURNS</a></li>
           <li><a href="/Governance/ICC">INTERNAL COMPLAINTS COMMITTEE</a></li>
