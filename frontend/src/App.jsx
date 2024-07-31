@@ -27,6 +27,8 @@ import AcademicCouncil from './Home/Governance/AcademicCouncil.jsx';
 import Administration from './Home/Governance/Administration.jsx';
 import Bogminutes from './Home/Governance/Bogminutes.jsx';
 import Annualreport from './Home/Governance/Annualreport.jsx';
+import APR from './Annualpr/Annualpr.jsx'
+import Icc from './ICC/Internalcc.jsx'
 
 
 function App() {
@@ -60,6 +62,8 @@ function App() {
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
     <Route path='/InformationCorner/JTVE' element={<JTVE/>} />
+    <Route path='/Governance/Annualpr' element={<APR/>} />
+    <Route path='/Governance/ICC' element={<Icc/>} />
     
     <Route path= '/Departments/Civil' element={<Civil/>}/>
 </Routes>
