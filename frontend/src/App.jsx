@@ -25,6 +25,8 @@ import JTVE from './Home/JTVE/JTVE.jsx';
 import MemorandumAssociation from './Home/Governance/MemorandumAssociation.jsx';
 import AcademicCouncil from './Home/Governance/AcademicCouncil.jsx';
 import Administration from './Home/Governance/Administration.jsx';
+import Bogminutes from './Home/Governance/Bogminutes.jsx';
+import Annualreport from './Home/Governance/Annualreport.jsx';
 
 
 function App() {
@@ -40,9 +42,11 @@ function App() {
       <Route path='/' element={<Home/>}/>
     <Route path='/academics/centres/resource' element={<ResourceCenter/>}/>
     <Route path='/Admission/pgcourses' element={<PgCourse/>}/>
-    <Route path='/Governance/MEMORANDUMOFASSOCIATION' element={<MemorandumAssociation/>}/>
-    <Route path='/GOVERNANCE/ACADEMIC-COUNCIL' element={<AcademicCouncil/>}/>
-    <Route path='/GOVERNACE/ADMINISTRATION' element={<Administration/>}/>
+    <Route path='/MEMORANDUMOFASSOCIATION' element={<MemorandumAssociation/>}/>
+    <Route path='/ACADEMIC-COUNCIL' element={<AcademicCouncil/>}/>
+    <Route path='/ADMINISTRATION' element={<Administration/>}/>
+    <Route path='/BOGMINUTES' element={<Bogminutes/>}/>
+    <Route path='/ANNUALREPORTS' element={<Annualreport/>}/>
     <Route path='/InformationCorner/biscorner' element={<BisCorner/>}/>
     <Route path='/InformationCorner/newsletter' element={<Newsletter/>}/>
     <Route path='/InformationCorner/RTIACT' element={<RTIACT/>}/>
