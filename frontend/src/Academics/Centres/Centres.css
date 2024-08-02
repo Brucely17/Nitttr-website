@@ -1,0 +1,109 @@
+/* YourStylesheet.css */
+
+.inr_top_bar {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .inr_top_bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .inr_top_bar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .inr_top_bar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .ml5 {
+    position: relative;
+    font-weight: 500;
+    font-size: 3em;
+    color: #c55a83;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #402d2d;
+    transform-origin: 2s;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Tab styles */
+  .tab {
+    float: left;
+    border: 1px solid #ccc;
+    width: 22%;
+    height: 100%;
+  }
+  
+  .tab button {
+    display: block;
+    padding: 18px 14px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #2EE59D;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: black;
+    background-color: #eee;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .tab button:hover {
+    text-transform: uppercase;
+    background-color: #8cc5bb;
+    box-shadow: 0px 15px 20px rgba(229, 46, 67, 0.3);
+    color: white;
+    transform: translateY(-7px);
+  }
+  
+  .tab button.active {
+    background-color: #41B3A3;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .tabcontent {
+    float: left;
+    border: 1px solid #ccc;
+    width: 78%;
+    height: 100%;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  

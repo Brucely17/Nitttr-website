@@ -134,6 +134,15 @@ const Navigation = () => {
           <li><a href="/academics/programs">Overview</a></li>
           <li><a href="/academics/research">AICTE-EOAReport</a></li>
           <SubDropdown
+            title="Centres"
+            isOpen={openSubDropdown[1] === 1}
+            handleClick={() => handleSubDropdownClick(1, 1)}
+          >
+            <li><a href="/Academics/Centres/AcademicStudies">Academics studies</a></li>
+            <li><a href="/Academics/Centres/InternationalAffairs">International Affairs</a></li>
+            <li><a href="/Academics/FacultyDepartment/FacultyofManagement">Faculty of Management</a></li>
+          </SubDropdown>
+          <SubDropdown
             title="Faculty & Department"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}

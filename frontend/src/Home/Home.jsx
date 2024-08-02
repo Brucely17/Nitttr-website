@@ -7,6 +7,7 @@ import Speakers from './Speakers/Speakers.jsx';
 import Announcements from './AnnAch/Announcements.jsx';
 import Expertise from './Expertise/Expertise.jsx';
 import Gallery from './Gallery/Gallery.jsx';
+import DepDisplay from './DepDisplay/DepDisplay.jsx';
 
 
 
@@ -19,7 +20,7 @@ function Home() {
     <div >
     <Speakers/>
     <Announcements/>
-
+<DepDisplay/>
     <Expertise/>
     <Gallery/>
 

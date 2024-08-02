@@ -6,7 +6,7 @@ import { BrowserRouter , Route,  Routes } from 'react-router-dom';
 
 import './App.css';
 
-import Civil from './Departments/Civil.jsx'
+import Civil from './Departments/Civil/Civil.jsx'
 import VisionMission from './About/VisionMission.jsx';
 import ResourceCenter from './ResourceCenter/ResourceCenter.jsx';
 import PgCourse from './CoursesOffered/PgCourse.jsx';
@@ -29,6 +29,8 @@ import Bogminutes from './Home/Governance/Bogminutes.jsx';
 import Annualreport from './Home/Governance/Annualreport.jsx';
 import Apr from './Annualpr/Annualpr.jsx'
 import Icc from './ICC/Internalcc.jsx'
+import AcademicStudies from './Academics/Centres/AcademicStudies/AcademicStudies.jsx';
+import Inter from './Academics/Centres/InternationalAffairs/Inter.jsx';
 
 
 function App() {
@@ -64,8 +66,9 @@ function App() {
     <Route path='/InformationCorner/JTVE' element={<JTVE/>} />
     <Route path='/Governance/Annualpr' element={<Apr/>} />
     <Route path='/Governance/ICC' element={<Icc/>} />
-    
+    <Route path='/Academics/Centres/AcademicStudies' element={<AcademicStudies/>}/>
     <Route path= '/Departments/Civil' element={<Civil/>}/>
+    <Route path='/Academics/Centres/InternationalAffairs' element={<Inter/>}/>
 </Routes>
   
  

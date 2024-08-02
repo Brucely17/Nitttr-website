@@ -36,10 +36,10 @@ const Title = () => {
     <div className="ml5 text-gray-500" style={{zIndex:'-1'}}>
       <center>
         <span className="text-wrapper">
-          <span className="line line1"></span>
+          {/* <span className="line line1"></span> */}
           <span className="letters text-4xl letters-left">Department of Civil &amp;</span>
           <span className="letters text-4xl letters-right"> Environmental Engineering</span>
-          <span className="line line2"></span>
+          {/* <span className="line line2"></span> */}
         </span>
       </center>
     </div>

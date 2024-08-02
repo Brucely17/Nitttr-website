@@ -1,0 +1,58 @@
+/* ATab.css */
+.tablinks.active {
+  background-color: #d3d3d3;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.faculty_ctn {
+  margin-top: 20px;
+}
+
+.person_img img {
+  width: 100%;
+  height: auto;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table_td_pad {
+  padding: 10px;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.min_head {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fa-hand-o-right {
+  color: #5da039;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
