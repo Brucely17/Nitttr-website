@@ -118,7 +118,7 @@
 }
 
 .flip-box-header {
-  /* font-size: 28px; */
+  color: white;
 }
 
 .flip-box p {
@@ -176,5 +176,6 @@
 
 .flip-box-back ul li a:hover {
   /* text-decoration: underline; */
-  background-color: #ffcc00; /* Underline links on hover */
+  background-color: #6F90AF;
+  color: white; /* Underline links on hover */
 }
