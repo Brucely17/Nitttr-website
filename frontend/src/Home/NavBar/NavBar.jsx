@@ -174,13 +174,13 @@ const Navigation = () => {
         isOpen={openDropdown === 1}
         handleClick={() => handleDropdownClick(1)}
         >
-          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>MEMORANDUM OF ASSOCIATION</a></li>
-          <li><a href='ACADEMIC-COUNCIL'>ACADEMIC COUNCIL</a></li>
-          <li><a href='ADMINISTRATION'>ADMINISTRATION</a></li>
-          <li><a href='BOGMINUTES'>BOG MINUTES</a></li>
-          <li><a href='ANNUALREPORTS'>ANNUAL REPORTS</a></li>
-          <li><a href="/Governance/Annualpr">ANNUAL PROPERTY RETURNS</a></li>
-          <li><a href="/Governance/ICC">INTERNAL COMPLAINTS COMMITTEE</a></li>
+          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>Memorandum of Association </a></li>
+          <li><a href='ACADEMIC-COUNCIL'>Academic Council </a></li>
+          <li><a href='ADMINISTRATION'>Administration </a></li>
+          <li><a href='BOGMINUTES'>BOG Minutes</a></li>
+          <li><a href='ANNUALREPORTS'>Annual Report</a></li>
+          <li><a href="/Governance/Annualpr">Annual Property Returns </a></li>
+          <li><a href="/Governance/ICC">Internal Complaints Committee</a></li>
         </Dropdown>
         <Dropdown
           title="Study @ NITTTR"
