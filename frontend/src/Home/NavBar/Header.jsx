@@ -61,7 +61,7 @@ const Header = () => {
       </div>
       {isHomePage && (
         <div className="video__container">
-          <video autoPlay loop muted className="background__video h-96">
+          <video autoPlay loop muted className="background__video h-97">
             <source src="/images/new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
