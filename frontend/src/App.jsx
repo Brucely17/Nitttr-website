@@ -31,6 +31,7 @@ import Apr from './Annualpr/Annualpr.jsx'
 import Icc from './ICC/Internalcc.jsx'
 import AcademicStudies from './Academics/Centres/AcademicStudies/AcademicStudies.jsx';
 import Inter from './Academics/Centres/InternationalAffairs/Inter.jsx';
+import Contact from './Contact/contact.jsx'
 
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
     <Route path='/Academics/Centres/AcademicStudies' element={<AcademicStudies/>}/>
     <Route path= '/Departments/Civil' element={<Civil/>}/>
     <Route path='/Academics/Centres/InternationalAffairs' element={<Inter/>}/>
+    <Route path= '/contact' element={<Contact/>}/>
 </Routes>
   
  
