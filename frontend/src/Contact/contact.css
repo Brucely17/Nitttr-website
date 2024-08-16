@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Arial&display=swap');
+
+/* Reset some default styles for consistency */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.column1 {
+    width: 30%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    perspective: 1000px;
+    height: 300px;
+}
+
+.column {
+    width: 20%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+    background-color: #E8E8E8; /* Light grey color for inactive buttons */
+    color: black;
+}
+
+.column ul li {
+    text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.column.active {
+    background-color: #002060; /* Bootstrap primary color */
+    color: white !important; /* Set text color to white */
+}
+
+.column.active a.nav-link {
+    color: white !important; /* Set text color of the link to white */
+}
+
+.fa {
+    font-size: 3em; /* Adjust icon size here */
+}
+
+.flip-card {
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-card-front {
+    background-color: #ffffff;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #002060;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back a.btn {
+    background-color: #002060;
+    color: white;
+}
+
+.flip-card-back a.btn:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+.flip-card h2,
+.flip-card p {
+    margin: 20px;
+}
+
+.flip-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* Adjust styles as needed */
+.column1 i {
+    font-size: 3em; /* Adjust icon size here */
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+.column1 h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem; /* Smaller caption size */
+}
+
+.column1 p {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.2rem; /* Smaller text size */
+}
+
+.flip-card-back p {
+    text-align: center;
+    color: white !important;
+    font-size: 1rem; /* Smaller text size */
+}
+
+hr {
+    border: 0.5px solid #ddd;
+}
+ 
+/* Centered Title */
+
+.title-container h2 {
+    font-size: 2rem; /* Adjust the title font size if needed */
+    color: black;
+    text-align: center;
+}
