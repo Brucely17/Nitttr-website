@@ -296,7 +296,7 @@ const Navigation = () => {
         </Dropdown>
 
         <li><a href="/admissions">Announcements </a></li>
-        <li><a href="/facilities">Contact us</a></li>
+        <li><a href="/contact">Contact us</a></li>
       </ul>
     </nav>
     
