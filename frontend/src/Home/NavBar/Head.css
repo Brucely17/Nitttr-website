@@ -1,6 +1,7 @@
 body {
   padding-top: 100px; /* Adjust this value to match the height of your header */
 }
+
 .main-content {
   padding-top: 100px; /* Adjust this value based on your header's height */
 }
@@ -23,7 +24,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end; /* Aligns items to the right */
+  width: 100%;
 }
 
 .header-logo {
@@ -33,12 +35,14 @@ body {
 
 .social-icons {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  justify-content: flex-end; /* Aligns the social icons to the right */
+  background-color: white;
 }
 
 .social-icon {
-  font-size: 24px;
-  color: #333;
+  width: 35px; /* Makes the icons smaller */
+  height: 35px;
 }
 
 @media (max-width: 768px) {
@@ -61,6 +65,7 @@ body {
   .social-icons {
     justify-content: flex-end;
     width: auto;
+    background-color: white;
   }
 
   .hRight {
@@ -69,5 +74,10 @@ body {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
+  }
+
+  .social-icon {
+    width: 15px; /* Further reduces the size of the icons for smaller screens */
+    height: 15px;
   }
 }

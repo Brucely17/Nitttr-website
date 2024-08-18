@@ -78,10 +78,9 @@ const Navigation = () => {
             <li><a href="/institute/governing-bodies/director">Finance Commitee</a></li>
             <li><a href="/institute/governing-bodies/reports">Senate</a></li>
           </SubDropdown>
-          <li><a href="/institute/vision">Chairman Message</a></li>
           <li><a href="/institute/chairman">Chairman and Director</a></li>
           <li><a href="/institute/directorMessage">Director Message</a></li>
-          <li><a href="/institute/memorandum">Annual Reports</a></li>
+          <li><a href="/institute/Annual Report">Annual Reports</a></li>
         </Dropdown>
         <Dropdown
           title="Administration"
@@ -97,7 +96,7 @@ const Navigation = () => {
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
             <li><a href="/administraction/Committees & Incharge/BOG">Office of Administration & Accounts</a></li>
-            <li><a href="/administraction/Committees & Incharge/vigilance officer">Chief Vigilance Officer</a></li>
+            <li><a href="/administration/Committees & Incharge/Vigilance">Chief Vigilance Officer</a></li>
             <li><a href="/administraction/Committees & Incharge/estate officer">Nodal Officer - Public Grievance</a></li>
             <li><a href="/administraction/Committees & Incharge/estate officer">Estate Officer</a></li>
             <li><a href="/administraction/Committees & Incharge/estate officer">Grievance Redressal Committee</a></li>
@@ -111,7 +110,7 @@ const Navigation = () => {
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/administraction/Accounts Details/Details">New PAN,TAN & GSTIN Details</a></li>
+            <li><a href="/rti/2024/Pan,Tan,GSTINdetails.pdf" target='_blank'>New PAN,TAN & GSTIN Details</a></li>
           </SubDropdown>
           <li><a href="/administration/chairman">Staff of Admin & Accounts</a></li>
           <SubDropdown
@@ -123,7 +122,7 @@ const Navigation = () => {
             <li><a href="/administraction/Policies & Rules/Account Rules">Account Rules</a></li>
             <li><a href="/administraction/Policies & Rules/Admission Form">Administration Form </a></li>
           </SubDropdown>
-          <li><a href="/administration/chairman">Annual Property Returns</a></li>
+          <li><a href="/administration/AnnualPR">Annual Property Returns</a></li>
           <li><a href="/administration/chairman">Past Directors & Chairman</a></li>
         </Dropdown>
         <Dropdown
@@ -132,7 +131,7 @@ const Navigation = () => {
           handleClick={() => handleDropdownClick(3)}
         >
           <li><a href="/academics/programs">Overview</a></li>
-          <li><a href="/academics/research">AICTE-EOAReport</a></li>
+          <li><a href="/rti/2024/EOA Report 2024-2025.pdf" target='_blank'>AICTE-EOAReport</a></li>
           <SubDropdown
             title="Centres"
             isOpen={openSubDropdown[1] === 1}
@@ -174,12 +173,10 @@ const Navigation = () => {
         isOpen={openDropdown === 1}
         handleClick={() => handleDropdownClick(1)}
         >
-          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>Memorandum of Association </a></li>
-          <li><a href='ACADEMIC-COUNCIL'>Academic Council </a></li>
-          <li><a href='ADMINISTRATION'>Administration </a></li>
+          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>Memorandum of Association</a></li>
+          <li><a href='ACADEMIC-COUNCIL'>Academic Council</a></li>
+          <li><a href='ADMINISTRATION'>Administration</a></li>
           <li><a href='BOGMINUTES'>BOG Minutes</a></li>
-          <li><a href='ANNUALREPORTS'>Annual Report</a></li>
-          <li><a href="/Governance/Annualpr">Annual Property Returns </a></li>
           <li><a href="/Governance/ICC">Internal Complaints Committee</a></li>
         </Dropdown>
         <Dropdown
@@ -278,11 +275,11 @@ const Navigation = () => {
           <li><a href="/Information Corner/about">Circular</a></li>
           <li><a href="/InformationCorner/biscorner">Bis Corner</a></li>
           <li><a href="/InformationCorner/RTIACT">RTI ACT</a></li>
-          <li><a href="/InformationCorner/BROCHURE">BROCHURE</a></li>
-          <li><a href="https://email.gov.in/" target='_blank'>WEBMAIl</a></li>
+          <li><a href="/InformationCorner/BROCHURE">Brochure</a></li>
+          <li><a href="https://email.gov.in/" target='_blank'>Webmail</a></li>
           <li><a href='/InformationCorner/JTVE'>JTVE</a></li>
-          <li><a href="/rti/2024/Pan,Tan,GSTINdetails.pdf" target='_blank'>New PAN, TAN and GSTIN Details</a></li>
-          <li><a href="/rti/2024/EOA Report 2024-2025.pdf" target='_blank'>EOA Report 2024-2025</a></li>
+          
+          
         </Dropdown>
         <Dropdown
           title="Recruitments"

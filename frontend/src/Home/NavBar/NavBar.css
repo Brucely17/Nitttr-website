@@ -166,7 +166,7 @@
 .hamburger svg {
   /* left:0; */
   font-size: 24px;
-  color: #333;
+  color: #ffffff;
 }
 
 @media (max-width: 1024px) {
@@ -178,7 +178,7 @@
     right: 0;
     height: auto;
     width: 250px;
-    background-color: #4a4a4a;
+    background-color:#84A7BA;
     flex-direction: column;
     
     gap: 0;
@@ -195,7 +195,7 @@
   padding-bottom:20px;
   position: relative;
   border:#333;
-  background-color: #4a4a4a;
+  background-color:  #ffffff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   display: none;
   transform: translateY(-40%);
