@@ -31,6 +31,7 @@ import Apr from './Annualpr/Annualpr.jsx'
 import Icc from './ICC/Internalcc.jsx'
 import AcademicStudies from './Academics/Centres/AcademicStudies/AcademicStudies.jsx';
 import Inter from './Academics/Centres/InternationalAffairs/Inter.jsx';
+import CVOfficer from './Officer/Office.jsx'
 import Contact from './Contact/contact.jsx'
 
 
@@ -51,7 +52,7 @@ function App() {
     <Route path='/ACADEMIC-COUNCIL' element={<AcademicCouncil/>}/>
     <Route path='/ADMINISTRATION' element={<Administration/>}/>
     <Route path='/BOGMINUTES' element={<Bogminutes/>}/>
-    <Route path='/ANNUALREPORTS' element={<Annualreport/>}/>
+    <Route path='/institute/Annual Report' element={<Annualreport/>}/>
     <Route path='/InformationCorner/biscorner' element={<BisCorner/>}/>
     <Route path='/InformationCorner/newsletter' element={<Newsletter/>}/>
     <Route path='/InformationCorner/RTIACT' element={<RTIACT/>}/>
@@ -65,11 +66,12 @@ function App() {
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
     <Route path='/Academics/FacultyDepartment/FacultyofManagement' element={<Fmanagement/>}/>
     <Route path='/InformationCorner/JTVE' element={<JTVE/>} />
-    <Route path='/Governance/Annualpr' element={<Apr/>} />
+    <Route path='/administration/AnnualPR' element={<Apr/>} />
     <Route path='/Governance/ICC' element={<Icc/>} />
     <Route path='/Academics/Centres/AcademicStudies' element={<AcademicStudies/>}/>
     <Route path= '/Departments/Civil' element={<Civil/>}/>
     <Route path='/Academics/Centres/InternationalAffairs' element={<Inter/>}/>
+    <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/>
     <Route path= '/contact' element={<Contact/>}/>
 </Routes>
   
@@ -79,7 +81,7 @@ function App() {
     </BrowserRouter>
 
 
-    <Footer/>
+    <Footer/>   
     </>
 
   )
