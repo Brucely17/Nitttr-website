@@ -62,7 +62,7 @@ const Header = () => {
       {isHomePage && (
         <div className="video__container">
           <video autoPlay loop muted className="background__video h-97">
-            <source src="/images/NITTTR Chennai - Temple of Learning(360P) (1).mp4" type="video/mp4" />
+            <source src="/images/NITTTR Chennai.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <Announce />
