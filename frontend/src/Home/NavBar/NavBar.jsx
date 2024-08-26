@@ -68,7 +68,7 @@ const Navigation = () => {
         >
           <li><a href="/institute/about">About Us</a></li>
           <li><a href="/institute/vissionMission">Vision & Mission</a></li>
-          <li><a href="/institute/MOA">Memorandum of Association </a></li>
+          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>Memorandum of Association</a></li>
           <SubDropdown
             title="Governing Bodies"
             isOpen={openSubDropdown[1] === 1}
@@ -123,6 +123,7 @@ const Navigation = () => {
             <li><a href="/administraction/Policies & Rules/Administrationform">Administration Form </a></li>
           </SubDropdown>
           <li><a href="/administration/AnnualPR">Annual Property Returns</a></li>
+          <li><a href="/administration/ICC">Internal Complaints Committee</a></li>
           <li><a href="/administration/chairman">Past Directors & Chairman</a></li>
         </Dropdown>
         <Dropdown
@@ -148,7 +149,6 @@ const Navigation = () => {
           >
             <li><a href="/Academics/FacultyDepartment/FacultyofEngineeringandTechnology">Faculty of Engineering and Technology</a></li>
             <li><a href="/Academics/FacultyDepartment/FacultyofEducation">Faculty of Education</a></li>
-            <li><a href="/Academics/FacultyDepartment/FacultyofManagement">Faculty of Management</a></li>
           </SubDropdown>
           <li><a href="/academics/PDP">Professional Development Program</a></li>
           <li><a href="/academics/ITP">International Training Prrogram</a></li>
@@ -158,7 +158,7 @@ const Navigation = () => {
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
             <li><a href="/Academics/Nationl Coordinators/SWAYAM">SWAYAM</a></li>
-            <li><a href="/Academics/National Coordinators/NITTTR">NITTT</a></li>
+            <li><a href="https://nittt.ac.in/">NITTT</a></li>
           </SubDropdown>
           <SubDropdown
             title="OER"
@@ -167,17 +167,6 @@ const Navigation = () => {
           >
             <li><a href="/Academics/OER/LMS">LMS</a></li>
           </SubDropdown>
-        </Dropdown>
-        <Dropdown 
-        title="Governance"
-        isOpen={openDropdown === 1}
-        handleClick={() => handleDropdownClick(1)}
-        >
-          <li><a target='_blank' href='https://www.nitttrc.ac.in/MoA/MoA.html'>Memorandum of Association</a></li>
-          <li><a href='ACADEMIC-COUNCIL'>Academic Council</a></li>
-          <li><a href='ADMINISTRATION'>Administration</a></li>
-          <li><a href='BOGMINUTES'>BOG Minutes</a></li>
-          <li><a href="/Governance/ICC">Internal Complaints Committee</a></li>
         </Dropdown>
         <Dropdown
           title="Study @ NITTTR"
@@ -269,7 +258,6 @@ const Navigation = () => {
         >
           <li><a target='_blank' href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=3755167">Fee Payment</a></li>
           <li><a target='_blank' href="https://www.nitttrc.ac.in/uploads/NITTTRc-AICTE.pdf">Mandatory Disclosure</a></li>
-          <li><a target='_blank' href='https://nittt.ac.in/'>NITTT</a></li>
           <li><a target='_blank' href="https://www.nitttrc.ac.in/uploads/Equal_opportunity_policy_NISER.pdf">Equal Opportunity Policy </a></li>
           <li><a href="/InformationCorner/newsletter">News Letters</a></li>
           <li><a href="/Information Corner/about">Circular</a></li>
@@ -289,10 +277,10 @@ const Navigation = () => {
           
           <li><a href="/Recruitments/faculty">Faculty</a></li>
           <li><a href="/Recruitments/staff">Staff</a></li>
-          <li><a href="/Recruitments/project&contract">Projects & Contract</a></li>
+          <li><a href="/Recruitments/project">Projects</a></li>
+          <li><a href="/Recruitments/Contract">Contract</a></li>
         </Dropdown>
 
-        <li><a href="/announcement">Announcements </a></li>
         <li><a href="/contact">Contact us</a></li>
       </ul>
     </nav>

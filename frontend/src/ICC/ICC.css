@@ -16,7 +16,7 @@
 
 .faculty-card {
     width: calc(40% - 20px);
-    background-color: #fff;
+    background-color: #BFCBCE;
     border-radius: 10px;
     color: black;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -72,7 +72,8 @@
 }
 
 h3 {
-    color: #5c2424;
+    color: #303655;
+    font-weight: bold;
 }
 
 p {
@@ -94,7 +95,7 @@ p {
 h1 {
     text-align: center;
     color: black;
-    font-size: 15%; /* Adjust the size as needed */
+    font-size: bold; /* Adjust the size as needed */
 }
 
 
@@ -108,7 +109,7 @@ h1 {
     flex: 1 1 300px;
     margin: 10px;
     padding: 20px;
-    background-color: #6b4348;
+    background-color: #84A7BA;
     text-align: center;
     width: 500px;
 }

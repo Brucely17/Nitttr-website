@@ -116,10 +116,6 @@
   top: 0;
 }
 
-.nav-links .dropdown li:hover > .sub-dropdown {
-  /* left: 100%; */
-  /* top: 0; */
-}
 
 .nav-links a:hover {
   background-color:#6F90AF;

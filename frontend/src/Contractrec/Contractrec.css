@@ -1,0 +1,46 @@
+.page-title {
+    text-align: center;
+    margin-top: -60px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    color: black;
+    font-size: 14px;
+    height: 60px;
+    vertical-align: middle;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  }
+  
+  .table th {
+    background-color: #286090;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pdf-container a {
+    margin-right: auto;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .pdf-container img {
+    margin-left: 10px;
+  }
+  
+  
+  
