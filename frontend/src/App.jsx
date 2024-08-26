@@ -33,7 +33,7 @@ import CVOfficer from './Officer/Office.jsx'
 import Contact from './Contact/contact.jsx'
 import GoogleTranslate from './Googletranslate.jsx';
 import Breadcrum from './Breadcrum/Breadcrum.jsx'
-
+import Facrec from './Facultyrec/Facultyrec.jsx'
 
 function App() {
   return (
@@ -73,6 +73,7 @@ function App() {
     <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/>
     {/* <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/> */}
     <Route path= '/contact' element={<Contact/>}/>
+    <Route path= '/Recruitments/faculty' element={<Facrec/>}/>
 </Routes>
 
  
