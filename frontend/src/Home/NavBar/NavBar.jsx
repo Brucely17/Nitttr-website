@@ -68,15 +68,15 @@ const Navigation = () => {
         >
           <li><a href="/institute/about">About Us</a></li>
           <li><a href="/institute/vissionMission">Vision & Mission</a></li>
-          <li><a href="/institute/about">Memorandum of Association </a></li>
+          <li><a href="/institute/MOA">Memorandum of Association </a></li>
           <SubDropdown
             title="Governing Bodies"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/institute/governing-bodies/chairman">BOG</a></li>
-            <li><a href="/institute/governing-bodies/director">Finance Commitee</a></li>
-            <li><a href="/institute/governing-bodies/reports">Senate</a></li>
+            <li><a href="/institute/governing-bodies/BOG">BOG</a></li>
+            <li><a href="/institute/governing-bodies/Finance">Finance Commitee</a></li>
+            <li><a href="/institute/governing-bodies/Senate">Senate</a></li>
           </SubDropdown>
           <li><a href="/institute/chairman">Chairman and Director</a></li>
           <li><a href="/institute/directorMessage">Director Message</a></li>
@@ -95,11 +95,11 @@ const Navigation = () => {
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/administraction/Committees & Incharge/BOG">Office of Administration & Accounts</a></li>
+            <li><a href="/administraction/Committees & Incharge/Administration account">Office of Administration & Accounts</a></li>
             <li><a href="/administration/Committees & Incharge/Vigilance">Chief Vigilance Officer</a></li>
-            <li><a href="/administraction/Committees & Incharge/estate officer">Nodal Officer - Public Grievance</a></li>
-            <li><a href="/administraction/Committees & Incharge/estate officer">Estate Officer</a></li>
-            <li><a href="/administraction/Committees & Incharge/estate officer">Grievance Redressal Committee</a></li>
+            <li><a href="/administraction/Committees & Incharge/Nodal officer">Nodal Officer - Public Grievance</a></li>
+            <li><a href="/administraction/Committees & Incharge/Estate officer">Estate Officer</a></li>
+            <li><a href="/administraction/Committees & Incharge/Grievance officer">Grievance Redressal Committee</a></li>
           </SubDropdown>
           <li><a href="/administration/Estate Officer">Estate Office</a></li>
           <li><a href="/administration/Guest House">Guest House</a></li>
@@ -120,7 +120,7 @@ const Navigation = () => {
           >
             <li><a href="/administraction/Policies & Rules/Administration Rules">Administration Rules</a></li>
             <li><a href="/administraction/Policies & Rules/Account Rules">Account Rules</a></li>
-            <li><a href="/administraction/Policies & Rules/Admission Form">Administration Form </a></li>
+            <li><a href="/administraction/Policies & Rules/Administrationform">Administration Form </a></li>
           </SubDropdown>
           <li><a href="/administration/AnnualPR">Annual Property Returns</a></li>
           <li><a href="/administration/chairman">Past Directors & Chairman</a></li>
@@ -130,7 +130,7 @@ const Navigation = () => {
           isOpen={openDropdown === 3}
           handleClick={() => handleDropdownClick(3)}
         >
-          <li><a href="/academics/programs">Overview</a></li>
+          <li><a href="/academics/overview">Overview</a></li>
           <li><a href="/rti/2024/EOA Report 2024-2025.pdf" target='_blank'>AICTE-EOAReport</a></li>
           <SubDropdown
             title="Centres"
@@ -150,8 +150,8 @@ const Navigation = () => {
             <li><a href="/Academics/FacultyDepartment/FacultyofEducation">Faculty of Education</a></li>
             <li><a href="/Academics/FacultyDepartment/FacultyofManagement">Faculty of Management</a></li>
           </SubDropdown>
-          <li><a href="/academics/publications">Professional Development Program</a></li>
-          <li><a href="/academics/publications">International Training Prrogram</a></li>
+          <li><a href="/academics/PDP">Professional Development Program</a></li>
+          <li><a href="/academics/ITP">International Training Prrogram</a></li>
           <SubDropdown
             title="National Coordinators"
             isOpen={openSubDropdown[1] === 1}
@@ -189,57 +189,57 @@ const Navigation = () => {
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Study @ NITTTR/Salient Features/chairman">Fractal Mode</a></li>
-            <li><a href="/Study @ NITTTR/Salient Features/chairman">Online Learning</a></li>
+            <li><a href="/Study @ NITTTR/Salient Features/Fractal Mode">Fractal Mode</a></li>
+            <li><a href="/Study @ NITTTR/Salient Features/Online Learning">Online Learning</a></li>
           </SubDropdown>
           <SubDropdown
             title="PG Programme"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in Infracture Engineering and Management</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in Mechtronics</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in VLSI Design and Embedded Systems</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in Power Electronics and Drives</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in Artificial Intelligence and Machine Learning</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in Agumented and Virtual Reality</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.Tech in Engineering Education </a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.B.A in Business Analytics</a></li>
-            <li><a href="/Study @ NITTTR/PG Programme/chairman">M.B.A in Management</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/IEM">M.Tech in Infracture Engineering and Management</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/Mech">M.Tech in Mechtronics</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/VLSI">M.Tech in VLSI Design and Embedded Systems</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/Power">M.Tech in Power Electronics and Drives</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/AIML">M.Tech in Artificial Intelligence and Machine Learning</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/AR/VR">M.Tech in Agumented and Virtual Reality</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/Engineering">M.Tech in Engineering Education </a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/BA">M.B.A in Business Analytics</a></li>
+            <li><a href="/Study @ NITTTR/PG Programme/Management">M.B.A in Management</a></li>
           </SubDropdown>
           <SubDropdown
             title="PG Diploma"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Study @ NITTTR/PG Diploma/chairman">PG Diploma in Guidance and counselling</a></li>
-            <li><a href="/Study @ NITTTR/PG Diploma/chairman">PG Diploma in Entrepreneurship Development</a></li>
-            <li><a href="/Study @ NITTTR/PG Diploma/chairman">PG Diploma in AI and ML</a></li>
+            <li><a href="/Study @ NITTTR/PG Diploma/Guidance">PG Diploma in Guidance and counselling</a></li>
+            <li><a href="/Study @ NITTTR/PG Diploma/Entrepreneurship">PG Diploma in Entrepreneurship Development</a></li>
+            <li><a href="/Study @ NITTTR/PG Diploma/DiplomaAI/ML">PG Diploma in AI and ML</a></li>
           </SubDropdown>
           <SubDropdown
             title="PG Certificate"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Study @ NITTTR/PG Certificate/chairman">All Certificate</a></li>
+            <li><a href="/Study @ NITTTR/PG Certificate/certificate">All Certificate</a></li>
           </SubDropdown>
           <SubDropdown
             title="Integrated Teacher Education Program"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Study @ NITTTR/Integrated Teacher Education Program/chairman">B.Sc,B.Edu</a></li>
+            <li><a href="/Study @ NITTTR/Integrated Teacher Education Program/BSC">B.Sc,B.Edu</a></li>
           </SubDropdown>
           <SubDropdown
             title="Research"
             isOpen={openSubDropdown[1] === 1}
             handleClick={() => handleSubDropdownClick(1, 1)}
           >
-            <li><a href="/Study @ NITTTR/Research/chairman">M. Tech. (By Research)</a></li>
-            <li><a href="/Study @ NITTTR/Research/chairman">Ph.D. Degree in Engineering/ Technology</a></li>
-            <li><a href="/Study @ NITTTR/Research/chairman">Ph.D. Degree in Engineering Education (Inter Disciplinary)</a></li>
-            <li><a href="/Study @ NITTTR/Research/chairman">Ph.D. Degree in Science and Humanities</a></li>
-            <li><a href="/Study @ NITTTR/Research/chairman">Ph.D. Degree in Management Sciences</a></li>
+            <li><a href="/Study @ NITTTR/Research/MTech">M. Tech. (By Research)</a></li>
+            <li><a href="/Study @ NITTTR/Research/eng/tech">Ph.D. Degree in Engineering/ Technology</a></li>
+            <li><a href="/Study @ NITTTR/Research/engedu">Ph.D. Degree in Engineering Education (Inter Disciplinary)</a></li>
+            <li><a href="/Study @ NITTTR/Research/science/hum">Ph.D. Degree in Science and Humanities</a></li>
+            <li><a href="/Study @ NITTTR/Research/managementscience">Ph.D. Degree in Management Sciences</a></li>
           </SubDropdown>
         </Dropdown>
         <Dropdown
@@ -248,8 +248,8 @@ const Navigation = () => {
           handleClick={() => handleDropdownClick(1)}
         >
           <li><a href="/Admission/about">Admission Policy</a></li>
-          <li><a href="/Admission/about">PG Regulations</a></li>
-          <li><a href="/Admission/about">PhD Regulations</a></li>
+          <li><a href="https://www.nitttrc.ac.in/admissions/PG%20PROGRAMME.pdf">PG Regulations</a></li>
+          <li><a href="https://www.nitttrc.ac.in/admissions/PHD%20PROGRAMME.pdf">PhD Regulations</a></li>
           <li><a href="/Admission/pgcourses">Courses offered</a></li>
         </Dropdown>
         <Dropdown
@@ -257,10 +257,10 @@ const Navigation = () => {
           isOpen={openDropdown === 1}
           handleClick={() => handleDropdownClick(1)}
         >
-          <li><a href="/Facilities/about">Sports</a></li>
-          <li><a href="/Facilities/about">Computer Center</a></li>
-          <li><a href="/Facilities/about">Resource Center</a></li>
-          <li><a href="/Facilities/about">Hostel</a></li>
+          <li><a href="/Facilities/sports">Sports</a></li>
+          <li><a href="/Facilities/computercentre">Computer Center</a></li>
+          <li><a href="/Facilities/resource">Resource Center</a></li>
+          <li><a href="/Facilities/hostel">Hostel</a></li>
         </Dropdown>
         <Dropdown
           title="Information Corner"
@@ -287,12 +287,12 @@ const Navigation = () => {
           handleClick={() => handleDropdownClick(1)}
         >
           
-          <li><a href="/Recruitments/about">Faculty</a></li>
-          <li><a href="/Recruitments/about">Staff</a></li>
-          <li><a href="/Recruitments/about">Projects & Contract</a></li>
+          <li><a href="/Recruitments/facylty">Faculty</a></li>
+          <li><a href="/Recruitments/staff">Staff</a></li>
+          <li><a href="/Recruitments/project&contract">Projects & Contract</a></li>
         </Dropdown>
 
-        <li><a href="/admissions">Announcements </a></li>
+        <li><a href="/announcement">Announcements </a></li>
         <li><a href="/contact">Contact us</a></li>
       </ul>
     </nav>
