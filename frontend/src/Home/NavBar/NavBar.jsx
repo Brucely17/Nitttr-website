@@ -287,7 +287,7 @@ const Navigation = () => {
           handleClick={() => handleDropdownClick(1)}
         >
           
-          <li><a href="/Recruitments/facylty">Faculty</a></li>
+          <li><a href="/Recruitments/faculty">Faculty</a></li>
           <li><a href="/Recruitments/staff">Staff</a></li>
           <li><a href="/Recruitments/project&contract">Projects & Contract</a></li>
         </Dropdown>
