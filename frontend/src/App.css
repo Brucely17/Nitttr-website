@@ -1,0 +1,32 @@
+src/App.css or src/components/GoogleTranslate.css
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:nth-of-type(1),
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:nth-of-type(2),
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:nth-of-type(3) {
+  display: none;
+}
+
+div#google_translate_element div.goog-te-gadget-simple {
+  margin: -75px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #00004d;
+  height: 30px;
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value::after {
+  content: "▼ SELECT LANGUAGE";
+  padding-right: 5px;
+  /* font-size: 2px; */
+  /* padding-bottom: px; */
+}
+
+div#google_translate_element div.goog-te-gadget-simple img:nth-of-type(1) {
+  display: none;
+}

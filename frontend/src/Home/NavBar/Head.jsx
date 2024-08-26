@@ -1,5 +1,6 @@
 import React from 'react';
 import './Head.css';
+import GoogleTranslate from '../../Googletranslate';
 
 const Head = () => {
   return (
@@ -19,6 +20,7 @@ const Head = () => {
           <img src='/images/Linkedin.png' alt="LinkedIn" className="social-icon" />
         </a>
       </div>
+      <GoogleTranslate/>
     </header>
   );
 };
