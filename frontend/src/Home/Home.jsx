@@ -8,6 +8,7 @@ import Announcements from './AnnAch/Announcements.jsx';
 import Expertise from './Expertise/Expertise.jsx';
 import Gallery from './Gallery/Gallery.jsx';
 import DepDisplay from './DepDisplay/DepDisplay.jsx';
+import Carousel from './Carousel/Carousel.jsx';
 
 
 
@@ -18,8 +19,10 @@ function Home() {
   return (
     
     <div >
+      <Carousel/>
     <Speakers/>
     <Announcements/>
+    
 <DepDisplay/>
     <Expertise/>
     <Gallery/>

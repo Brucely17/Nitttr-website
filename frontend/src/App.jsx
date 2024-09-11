@@ -28,7 +28,7 @@ import Apr from './Annualpr/Annualpr.jsx'
 import Icc from './ICC/Internalcc.jsx'
 import AcademicStudies from './Academics/Centres/AcademicStudies/AcademicStudies.jsx';
 import Inter from './Academics/Centres/InternationalAffairs/Inter.jsx';
-import CVOfficer from './Officer/Office.jsx';
+// import CVOfficer from './Officer/Office.jsx';
 // import CVOfficer from './Officer/Office.jsx'
 import Contact from './Contact/contact.jsx';
 import GoogleTranslate from './Googletranslate.jsx';
@@ -36,7 +36,7 @@ import Breadcrum from './Breadcrum/Breadcrum.jsx';
 import Facrec from './Facultyrec/Facultyrec.jsx';
 import Staffrec from './Staffrec/Staffrec.jsx';
 import Contactrec from './Contractrec/contractrec.jsx';
-import Projectrec from './Projectsrec/Projectrec.jsx'
+// import Projectrec from './Projectsrec/Projectrec.jsx'
 
 
 function App() {
@@ -74,12 +74,12 @@ function App() {
     <Route path='/Academics/Centres/AcademicStudies' element={<AcademicStudies/>}/>
     <Route path= '/Departments/Civil' element={<Civil/>}/>
     <Route path='/Academics/Centres/InternationalAffairs' element={<Inter/>}/>
-    <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/>
-    <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/>
+    {/* <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/>
+    <Route path='/administration/Committees & Incharge/Vigilance' element={<CVOfficer/>}/> */}
     <Route path= '/contact' element={<Contact/>}/>
     <Route path= '/Recruitments/faculty' element={<Facrec/>}/>
     <Route path= '/Recruitments/staff' element={<Staffrec/>}/>
-    <Route path= '/Recruitments/project' element={<Projectrec/>}/>
+    {/* <Route path= '/Recruitments/project' element={<Projectrec/>}/> */}
     <Route path= '/Recruitments/Contract' element={<Contactrec/>}/>
 
 

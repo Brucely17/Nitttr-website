@@ -1,0 +1,22 @@
+/* Continuous vertical marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* Marquee container with animation */
+.marqueeCarousel {
+  animation: marquee 10s linear infinite;
+  animation-play-state: running; /* Ensure the animation runs by default */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Pause animation when hovered */
+.marqueeCarousel:hover {
+  animation-play-state: paused; /* Pauses animation on hover */
+}
